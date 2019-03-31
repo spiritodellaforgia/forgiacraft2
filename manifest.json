@@ -1,0 +1,924 @@
+{
+    "hashes": [
+        {
+            "name": "mods",
+            "hash": "97654e4d33d493e0e7f1c7ce198ad3510cf72dda"
+        },
+        {
+            "name": "config",
+            "hash": "946cb97e0e5330fb6c9a5c4afcd65805a5ab4a7b"
+        },
+        {
+            "name": "forge",
+            "hash": "8379ad5ed43261dd37af7b3a5c8419da70b73ac7"
+        }
+    ],
+    "files": [
+        {
+            "path": "forgiacraft2/README.md",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/README.md",
+            "size": 0,
+            "hash": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+            "path": "forgiacraft2/config/Aether/analytics.json.gz",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/Aether/analytics.json.gz",
+            "size": 278,
+            "hash": "d2856523b320416bebda2a4ebd5e08833e305ebb"
+        },
+        {
+            "path": "forgiacraft2/config/ChickenChunks.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ChickenChunks.cfg",
+            "size": 1107,
+            "hash": "7a13fa028e8be8a358040d6284dc40b8d27386a0"
+        },
+        {
+            "path": "forgiacraft2/config/CustomMainMenu/mainmenu.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/CustomMainMenu/mainmenu.json",
+            "size": 4056,
+            "hash": "8940c4b0182940b177e8fddf6a967481a503a1a3"
+        },
+        {
+            "path": "forgiacraft2/config/InvTweaks.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/InvTweaks.cfg",
+            "size": 724,
+            "hash": "2f3ea885ceddd1c27717149b62490e35bb7781b3"
+        },
+        {
+            "path": "forgiacraft2/config/InvTweaksRules.txt",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/InvTweaksRules.txt",
+            "size": 1237,
+            "hash": "b8b0fa632727aec4b607206db9977dd48074b056"
+        },
+        {
+            "path": "forgiacraft2/config/InvTweaksTree.txt",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/InvTweaksTree.txt",
+            "size": 62968,
+            "hash": "a4881cc54530a324a9d2b4c2e47d6ec82cc59bc0"
+        },
+        {
+            "path": "forgiacraft2/config/MrTJPCore.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/MrTJPCore.cfg",
+            "size": 1346,
+            "hash": "28860b9fb7c40efd4cc3c86ff0d7c7b9a33e9eab"
+        },
+        {
+            "path": "forgiacraft2/config/OpenModsLibCore.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/OpenModsLibCore.json",
+            "size": 1639,
+            "hash": "9ab77a95c14d419de79249651d4e52cb6537bbcc"
+        },
+        {
+            "path": "forgiacraft2/config/ProjectRed.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ProjectRed.cfg",
+            "size": 5174,
+            "hash": "998ebf27992d2aadf7e5ebaaca4ef49de2d465b1"
+        },
+        {
+            "path": "forgiacraft2/config/ProjectRedRelocation.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ProjectRedRelocation.cfg",
+            "size": 3674,
+            "hash": "220fa03db327e693e4c66db92a1e232bbab61698"
+        },
+        {
+            "path": "forgiacraft2/config/TinkerModules.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/TinkerModules.cfg",
+            "size": 540,
+            "hash": "c93dce1c17ef8a9b301f33144d74296d6e595195"
+        },
+        {
+            "path": "forgiacraft2/config/TinkerToolLeveling.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/TinkerToolLeveling.cfg",
+            "size": 1248,
+            "hash": "1ccff3bc63d7dbb4c3df395ebed1bb7f70371b33"
+        },
+        {
+            "path": "forgiacraft2/config/aether.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/aether.cfg",
+            "size": 560,
+            "hash": "3aaf701e6a79c81402d771b3687f7a61b83c1cb5"
+        },
+        {
+            "path": "forgiacraft2/config/agricraft/config.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/agricraft/config.cfg",
+            "size": 6244,
+            "hash": "e1a51677e18d032e047fd5f2aec1080fc01b77f4"
+        },
+        {
+            "path": "forgiacraft2/config/badwithernocookiereloaded.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/badwithernocookiereloaded.cfg",
+            "size": 1450,
+            "hash": "b02743b0f0b9f8f22d2f5337782b52c30583f962"
+        },
+        {
+            "path": "forgiacraft2/config/betterfps.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/betterfps.json",
+            "size": 176,
+            "hash": "b15eaf37d69c7f5d962c4571d425bd9a0d070c88"
+        },
+        {
+            "path": "forgiacraft2/config/bibliocraft.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/bibliocraft.cfg",
+            "size": 5289,
+            "hash": "e052703299faffe9a6a5ce25ee4c5a92a3f9b481"
+        },
+        {
+            "path": "forgiacraft2/config/biomesoplenty/biome_ids.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/biomesoplenty/biome_ids.json",
+            "size": 1549,
+            "hash": "d3f291064dc3dc6cc3c631f991e7d55dcd6f0557"
+        },
+        {
+            "path": "forgiacraft2/config/biomesoplenty/gameplay.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/biomesoplenty/gameplay.cfg",
+            "size": 164,
+            "hash": "b648d29b645f06cf7d157a1665a5327a65b9ade4"
+        },
+        {
+            "path": "forgiacraft2/config/biomesoplenty/misc.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/biomesoplenty/misc.cfg",
+            "size": 441,
+            "hash": "1db47a11ea1303579189a8f43fbdb65c7d5f8dcc"
+        },
+        {
+            "path": "forgiacraft2/config/cfm.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cfm.cfg",
+            "size": 7334,
+            "hash": "feec6c2c401d916823dc69ca103108183e2c2331"
+        },
+        {
+            "path": "forgiacraft2/config/chisel.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/chisel.cfg",
+            "size": 4589,
+            "hash": "063bcf000dcc29b6ca2992aa9c6f82a1a6222311"
+        },
+        {
+            "path": "forgiacraft2/config/chiselsandbits.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/chiselsandbits.cfg",
+            "size": 13441,
+            "hash": "b5c459cecdd5d86d7f8d4c692e2e0c47c52e1e78"
+        },
+        {
+            "path": "forgiacraft2/config/chiselsandbits_clipboard.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/chiselsandbits_clipboard.cfg",
+            "size": 0,
+            "hash": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+            "path": "forgiacraft2/config/codechicken/supporters.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/codechicken/supporters.json",
+            "size": 601,
+            "hash": "680229cab08519d60c3d01efa6546052da8ae890"
+        },
+        {
+            "path": "forgiacraft2/config/codechicken/supporters.marker",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/codechicken/supporters.marker",
+            "size": 13,
+            "hash": "15b9b1d38cce7a4a46980cf898b2f6ec79612f2c"
+        },
+        {
+            "path": "forgiacraft2/config/codechickenlib.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/codechickenlib.cfg",
+            "size": 1472,
+            "hash": "0d9ca7cdb9595d422bfca7fad04aeae7b9698c87"
+        },
+        {
+            "path": "forgiacraft2/config/conarm.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/conarm.cfg",
+            "size": 883,
+            "hash": "30b00f591055c9fa4d1f06eec7a5a0c1b8a3ee76"
+        },
+        {
+            "path": "forgiacraft2/config/ctm.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ctm.cfg",
+            "size": 229,
+            "hash": "595de6e0845d3ab5535a810c45382d82b64683cb"
+        },
+        {
+            "path": "forgiacraft2/config/decocraft.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/decocraft.cfg",
+            "size": 203,
+            "hash": "f7a88526948b26b6a09342dab86af251774948a6"
+        },
+        {
+            "path": "forgiacraft2/config/defaultoptions.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/defaultoptions.cfg",
+            "size": 457,
+            "hash": "357b33d43d04c55277b7c44c1e8279cd0787faa4"
+        },
+        {
+            "path": "forgiacraft2/config/defaultoptions/keybindings.txt",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/defaultoptions/keybindings.txt",
+            "size": 5003,
+            "hash": "6be197baf57389272becc7bee35a29f7a3ddffd1"
+        },
+        {
+            "path": "forgiacraft2/config/defaultoptions/options.txt",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/defaultoptions/options.txt",
+            "size": 1452,
+            "hash": "3b87d040d25504a982c803a860eba8e0152f94d4"
+        },
+        {
+            "path": "forgiacraft2/config/ding.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ding.cfg",
+            "size": 1055,
+            "hash": "6fae17c21caa644ee182c37937d7c99597cbefe3"
+        },
+        {
+            "path": "forgiacraft2/config/doggytalents.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/doggytalents.cfg",
+            "size": 2663,
+            "hash": "fd6c830dce7799eb2b02c84d0f9ef49355f3dd96"
+        },
+        {
+            "path": "forgiacraft2/config/foamfix.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/foamfix.cfg",
+            "size": 6129,
+            "hash": "2c8cbd7578744b3bf87ab10fbeedfd1b7e9b83b4"
+        },
+        {
+            "path": "forgiacraft2/config/forge.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/forge.cfg",
+            "size": 3865,
+            "hash": "149b27caf87d732f8fb476f91ce9995f0cb6be5b"
+        },
+        {
+            "path": "forgiacraft2/config/forgeChunkLoading.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/forgeChunkLoading.cfg",
+            "size": 2155,
+            "hash": "0f64846384f702d322f2f07e1ea6ad7c407d7dfc"
+        },
+        {
+            "path": "forgiacraft2/config/hats.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/hats.cfg",
+            "size": 8268,
+            "hash": "d8533e3c27ed20ab1f3c8d48d7991a5931b8fb91"
+        },
+        {
+            "path": "forgiacraft2/config/ichunutil.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ichunutil.cfg",
+            "size": 3370,
+            "hash": "c4d5eb119fc4017d2691569e8538cb11727bebcc"
+        },
+        {
+            "path": "forgiacraft2/config/ichunutil_keybinds.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ichunutil_keybinds.cfg",
+            "size": 998,
+            "hash": "5c9d13311d1d4fbf6547354e9d0da2b16d879668"
+        },
+        {
+            "path": "forgiacraft2/config/immersiveengineering.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/immersiveengineering.cfg",
+            "size": 24835,
+            "hash": "331b16c635a21024aced9da18d9fd90abe88a314"
+        },
+        {
+            "path": "forgiacraft2/config/infinitylib.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/infinitylib.cfg",
+            "size": 120,
+            "hash": "29c6ede3e6724fb3184e17e4949d45064dcbf998"
+        },
+        {
+            "path": "forgiacraft2/config/ironbackpacks/blacklist.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ironbackpacks/blacklist.json",
+            "size": 47,
+            "hash": "d20bc043382ee4ef68f7ace4cccacae714290a9d"
+        },
+        {
+            "path": "forgiacraft2/config/ironbackpacks/ironbackpacks.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ironbackpacks/ironbackpacks.cfg",
+            "size": 1429,
+            "hash": "febbce5a8cc6e4a27de2c9ae18609a8a58f676f8"
+        },
+        {
+            "path": "forgiacraft2/config/ironchest.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ironchest.cfg",
+            "size": 153,
+            "hash": "1badb8f0ef8ccd08451030d58d5d4ad87d39c4ba"
+        },
+        {
+            "path": "forgiacraft2/config/jei/itemBlacklist.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/jei/itemBlacklist.cfg",
+            "size": 662,
+            "hash": "376c74020be0dc108a754d03120c5f2da6c0cfd9"
+        },
+        {
+            "path": "forgiacraft2/config/jei/jei.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/jei/jei.cfg",
+            "size": 2856,
+            "hash": "763f6ad87751f4845682ac727c34563756884867"
+        },
+        {
+            "path": "forgiacraft2/config/jei/searchColors.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/jei/searchColors.cfg",
+            "size": 1941,
+            "hash": "895f31ad3f8dbb9a81fde0d5981d733025aab099"
+        },
+        {
+            "path": "forgiacraft2/config/jei/worldSettings.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/jei/worldSettings.cfg",
+            "size": 1546,
+            "hash": "e67cb307a4b83416e1d50fa21a0473771f41e507"
+        },
+        {
+            "path": "forgiacraft2/config/journeymap_ModInfo.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/journeymap_ModInfo.cfg",
+            "size": 368,
+            "hash": "a6405a6aab8225e660b3fe4f35d4112b1da1ab8a"
+        },
+        {
+            "path": "forgiacraft2/config/malisiscore.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/malisiscore.cfg",
+            "size": 82,
+            "hash": "1494bda84678803f55a8e306743b5830dc2e99e6"
+        },
+        {
+            "path": "forgiacraft2/config/malisisdoors.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/malisisdoors.cfg",
+            "size": 272,
+            "hash": "5bd91ae04caa57a1ea82bfa4b44acaf78bd4efff"
+        },
+        {
+            "path": "forgiacraft2/config/microblocks.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/microblocks.cfg",
+            "size": 463,
+            "hash": "e6c09c9136c4ff914801325d85eaa25d4180dd41"
+        },
+        {
+            "path": "forgiacraft2/config/multipart.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/multipart.cfg",
+            "size": 319,
+            "hash": "b60c6bef8c2d80addc2fadf689bdef3521a1c03d"
+        },
+        {
+            "path": "forgiacraft2/config/ocsensors/settings.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ocsensors/settings.cfg",
+            "size": 1590,
+            "hash": "2eeb8ff067d168f652c528d0b84d231ca5d90b30"
+        },
+        {
+            "path": "forgiacraft2/config/openblocks.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/openblocks.cfg",
+            "size": 13235,
+            "hash": "82562980f4b5d265ca92bb6da64bf5d427db3dfa"
+        },
+        {
+            "path": "forgiacraft2/config/opencomputers/default.recipes",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/default.recipes",
+            "size": 22901,
+            "hash": "e2ed1dfd8a15a38e7cd3f24cc0b324e79b9583fb"
+        },
+        {
+            "path": "forgiacraft2/config/opencomputers/gregtech.recipes",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/gregtech.recipes",
+            "size": 12883,
+            "hash": "1c3a45134d470b5252d99edc41e8669ec2a7ad65"
+        },
+        {
+            "path": "forgiacraft2/config/opencomputers/hardmode.recipes",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/hardmode.recipes",
+            "size": 14042,
+            "hash": "14cc0646af6ea914899dcc072367a4d489121396"
+        },
+        {
+            "path": "forgiacraft2/config/opencomputers/peaceful.recipes",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/peaceful.recipes",
+            "size": 2703,
+            "hash": "83b57cd2192a54e0bff63c7329ea61a894baaa21"
+        },
+        {
+            "path": "forgiacraft2/config/opencomputers/settings.conf",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/settings.conf",
+            "size": 72838,
+            "hash": "7f59dd41607664b627d771511167db59f2902675"
+        },
+        {
+            "path": "forgiacraft2/config/opencomputers/user.recipes",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/user.recipes",
+            "size": 1000,
+            "hash": "69c4632ba0da7ad03d239e1d2ae418421a56c911"
+        },
+        {
+            "path": "forgiacraft2/config/openmods.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/openmods.cfg",
+            "size": 655,
+            "hash": "0bb06f082aa5828768646c33623c705f69609603"
+        },
+        {
+            "path": "forgiacraft2/config/openprinter.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/openprinter.cfg",
+            "size": 331,
+            "hash": "e4693818a6098d0fee350a179011020fdb7f61a2"
+        },
+        {
+            "path": "forgiacraft2/config/placebo.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/placebo.cfg",
+            "size": 313,
+            "hash": "875413a4d54fa338043dce705f232af7ff74a031"
+        },
+        {
+            "path": "forgiacraft2/config/ptrmodellib.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ptrmodellib.cfg",
+            "size": 162,
+            "hash": "381bc85a5b742d73597b32a042c1c1c219fc4207"
+        },
+        {
+            "path": "forgiacraft2/config/quark.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/quark.cfg",
+            "size": 80302,
+            "hash": "c7d8ced9de5541c2402e5b7eae429138f75043be"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/blocks.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/blocks.cfg",
+            "size": 13075,
+            "hash": "e49d90c8516ea2dd784b3c1774d4458678f209c8"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/client.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/client.cfg",
+            "size": 476,
+            "hash": "6f24f780f040ca1fbf0adb764c148ab00294ab7f"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/entities.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/entities.cfg",
+            "size": 1154,
+            "hash": "b97df3f70fbcac5757e97268782e028f55facaeb"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/items.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/items.cfg",
+            "size": 2508,
+            "hash": "4800eec190eaef20d3d1b40fb778a89474929dd8"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/modules.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/modules.cfg",
+            "size": 3009,
+            "hash": "d5614adb706fe05dd6ef5dac7307714af964179a"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_copper.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_copper.cfg",
+            "size": 9052,
+            "hash": "f6d5774d08f2d15aae89724f1584e6aea8b43d8c"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_gold.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_gold.cfg",
+            "size": 9050,
+            "hash": "dab37a40457c8231ced68a3a84eaea75d2dffc86"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_iron.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_iron.cfg",
+            "size": 9052,
+            "hash": "e57df59f74b730ef976c112e187e960b18b8e106"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_lead.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_lead.cfg",
+            "size": 9052,
+            "hash": "71099f4a5f7a2737e766b68bbc4ee2cc23c6c1cb"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_nickel.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_nickel.cfg",
+            "size": 9052,
+            "hash": "fd6c9b4fa2e66c20a9033bc2fe135ee651203006"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_silver.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_silver.cfg",
+            "size": 9052,
+            "hash": "3f7fcc9615045c57fb1ad5e83f846c812316cdfc"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_tin.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_tin.cfg",
+            "size": 9052,
+            "hash": "6b97d5d6d2947a8ffea0cfb35a5cd536dc92d432"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/ores/mine_zinc.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_zinc.cfg",
+            "size": 9052,
+            "hash": "a9d7ede14b04604177d6dc53876fec9999f649ec"
+        },
+        {
+            "path": "forgiacraft2/config/railcraft/railcraft.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/railcraft.cfg",
+            "size": 21391,
+            "hash": "dbdeab4e539e0bb130ee3a0e0a48389cb195da7c"
+        },
+        {
+            "path": "forgiacraft2/config/splash.properties",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/splash.properties",
+            "size": 358,
+            "hash": "2706e487acb6eeff38e0c9411579a2f640b5f9da"
+        },
+        {
+            "path": "forgiacraft2/config/storagedrawers.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/storagedrawers.cfg",
+            "size": 2449,
+            "hash": "91c87af848f250c568cbc71cca527e8c7fd50a46"
+        },
+        {
+            "path": "forgiacraft2/config/tconstruct.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/tconstruct.cfg",
+            "size": 4244,
+            "hash": "89abc058e886ea1b30799bace386d05451be4802"
+        },
+        {
+            "path": "forgiacraft2/config/toastcontrol.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/toastcontrol.cfg",
+            "size": 1867,
+            "hash": "e7bada5f7142c82f7c5d75f6020cfb7b6a33bbfb"
+        },
+        {
+            "path": "forgiacraft2/config/waila/theme/dark.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/waila/theme/dark.json",
+            "size": 137,
+            "hash": "3683991971eafed1e2807b8485eb83350cdb53ef"
+        },
+        {
+            "path": "forgiacraft2/config/waila/theme/vanilla.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/waila/theme/vanilla.json",
+            "size": 140,
+            "hash": "29864f694cad29c724cd26f4730b7b06258e985e"
+        },
+        {
+            "path": "forgiacraft2/config/waila/waila.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/waila/waila.cfg",
+            "size": 3278,
+            "hash": "cb298cb70bbf3a5aad51b51aab0acc4f38438cf5"
+        },
+        {
+            "path": "forgiacraft2/forge/forge-1.12.2-14.23.5.2823-installer.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/forge/forge-1.12.2-14.23.5.2823-installer.jar",
+            "size": 5080660,
+            "hash": "effc994d424ac6e2f9bead19c6990ac220a0a5cd"
+        },
+        {
+            "path": "forgiacraft2/mods/AgriCraft-2.12.0-1.12.0-a6.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/AgriCraft-2.12.0-1.12.0-a6.jar",
+            "size": 1357627,
+            "hash": "83fb3fd2e2b8ce5a1c41ae77cc330768504e8094"
+        },
+        {
+            "path": "forgiacraft2/mods/AutoRegLib-1.3-26.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/AutoRegLib-1.3-26.jar",
+            "size": 105356,
+            "hash": "00207cc1a963d9d74a008b2a2b4b84e183920d38"
+        },
+        {
+            "path": "forgiacraft2/mods/BetterFps-1.4.8.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/BetterFps-1.4.8.jar",
+            "size": 155196,
+            "hash": "097f8a1030dff706903850601fa8b38e5b25624d"
+        },
+        {
+            "path": "forgiacraft2/mods/BiblioCraft[v2.4.5][MC1.12.2].jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/BiblioCraft%5Bv2.4.5%5D%5BMC1.12.2%5D.jar",
+            "size": 5122856,
+            "hash": "ec00d6c1b462f6224eb15c9d2cd6b5cb02c8ed8e"
+        },
+        {
+            "path": "forgiacraft2/mods/BiomesOPlenty-1.12.2-7.0.1.2419-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/BiomesOPlenty-1.12.2-7.0.1.2419-universal.jar",
+            "size": 4691467,
+            "hash": "92cdbc484907748a89395484c6a215323a1bb3a4"
+        },
+        {
+            "path": "forgiacraft2/mods/CTM-MC1.12.2-0.3.3.22.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/CTM-MC1.12.2-0.3.3.22.jar",
+            "size": 194281,
+            "hash": "8b54a3fe6c42b2e36ec346c145c93c71d599e599"
+        },
+        {
+            "path": "forgiacraft2/mods/Chameleon-1.12-4.1.3.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Chameleon-1.12-4.1.3.jar",
+            "size": 96859,
+            "hash": "dc96fa12932da11596f8a4cefd1fe47b2719b5ef"
+        },
+        {
+            "path": "forgiacraft2/mods/ChickenChunks-1.12.2-2.4.1.73-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ChickenChunks-1.12.2-2.4.1.73-universal.jar",
+            "size": 134368,
+            "hash": "aba89efe85b3ffa9ae74a76ed752132372cf405c"
+        },
+        {
+            "path": "forgiacraft2/mods/Chisel-MC1.12.2-0.2.1.35.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Chisel-MC1.12.2-0.2.1.35.jar",
+            "size": 4310011,
+            "hash": "ae5fd9f53f048f6a8e624793bd2bfd9887cabae5"
+        },
+        {
+            "path": "forgiacraft2/mods/Clumps-3.1.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Clumps-3.1.2.jar",
+            "size": 13792,
+            "hash": "7957d77b3b1f21de0b668000aa76c3c469e91894"
+        },
+        {
+            "path": "forgiacraft2/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar",
+            "size": 700785,
+            "hash": "a234870b9d207d0c4276c513ae4c8d6999f60d79"
+        },
+        {
+            "path": "forgiacraft2/mods/CustomMainMenu-MC1.12.2-2.0.9.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/CustomMainMenu-MC1.12.2-2.0.9.jar",
+            "size": 177791,
+            "hash": "adbed1fa6f1bb99f6efa49dd37fc9a919455b48b"
+        },
+        {
+            "path": "forgiacraft2/mods/Decocraft-2.6.2_1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Decocraft-2.6.2_1.12.2.jar",
+            "size": 16304269,
+            "hash": "4bee6dfc2d0b9a8c8e6aff5c095157bfd98692e7"
+        },
+        {
+            "path": "forgiacraft2/mods/DefaultOptions_1.12.2-9.2.8.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/DefaultOptions_1.12.2-9.2.8.jar",
+            "size": 15056,
+            "hash": "6c1283e4996ef6dfa060defe6b043a10863cfe0a"
+        },
+        {
+            "path": "forgiacraft2/mods/Ding-1.12.1-1.0.1.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Ding-1.12.1-1.0.1.jar",
+            "size": 4711,
+            "hash": "4c7a923e472292e707a1128abce089a6adf87d5c"
+        },
+        {
+            "path": "forgiacraft2/mods/DoggyTalents-1.12.2-1.14.2.396-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/DoggyTalents-1.12.2-1.14.2.396-universal.jar",
+            "size": 709579,
+            "hash": "f5b50b5a268f7a1f4db2a7fb2c2355ec6e2968a9"
+        },
+        {
+            "path": "forgiacraft2/mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
+            "size": 1304914,
+            "hash": "1f490412707dae0fe61ad916b3c03e7fee121d66"
+        },
+        {
+            "path": "forgiacraft2/mods/Hats-1.12.2-7.0.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Hats-1.12.2-7.0.2.jar",
+            "size": 299884,
+            "hash": "94e17423cd41a23c816938eaa48811b83b374b5f"
+        },
+        {
+            "path": "forgiacraft2/mods/Hwyla-1.8.26-B41_1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Hwyla-1.8.26-B41_1.12.2.jar",
+            "size": 453778,
+            "hash": "577f02d2f5fb8fb162430a02458bbc2cc5e77970"
+        },
+        {
+            "path": "forgiacraft2/mods/ImmersiveEngineering-0.12-89.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ImmersiveEngineering-0.12-89.jar",
+            "size": 6542920,
+            "hash": "526397c1be94aab56eaacc30201f7edbdfecfe64"
+        },
+        {
+            "path": "forgiacraft2/mods/InventoryTweaks-1.63.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/InventoryTweaks-1.63.jar",
+            "size": 263258,
+            "hash": "8e47ef82e8f8468bcff37c919d03088758be6cf9"
+        },
+        {
+            "path": "forgiacraft2/mods/IronBackpacks-1.12.2-3.0.8-12.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/IronBackpacks-1.12.2-3.0.8-12.jar",
+            "size": 465363,
+            "hash": "d0c1f5e62d7adcf1661836f65ba7511049f60cc6"
+        },
+        {
+            "path": "forgiacraft2/mods/Mantle-1.12-1.3.3.42.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Mantle-1.12-1.3.3.42.jar",
+            "size": 838980,
+            "hash": "1d75b7236635e5c3cc5a1d73c6bd06b899bb76c9"
+        },
+        {
+            "path": "forgiacraft2/mods/MouseTweaks-2.10-mc1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/MouseTweaks-2.10-mc1.12.2.jar",
+            "size": 75170,
+            "hash": "9008b32b76df9fefd856a58e7f5f1d6579a2f37a"
+        },
+        {
+            "path": "forgiacraft2/mods/MrTJPCore-1.12.2-2.1.3.35-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/MrTJPCore-1.12.2-2.1.3.35-universal.jar",
+            "size": 799809,
+            "hash": "c8563523ae5571be05fb4aac87c2c96fda8dff92"
+        },
+        {
+            "path": "forgiacraft2/mods/NetherPortalFix_1.12.1-5.3.17.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/NetherPortalFix_1.12.1-5.3.17.jar",
+            "size": 109445,
+            "hash": "04edb3cdd6b248b12199a2e860929e0b0313c414"
+        },
+        {
+            "path": "forgiacraft2/mods/OpenBlocks-1.12.2-1.8.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/OpenBlocks-1.12.2-1.8.jar",
+            "size": 3217313,
+            "hash": "175f7e70808aad5f9a2068e1d01a609cbba5dca1"
+        },
+        {
+            "path": "forgiacraft2/mods/OpenComputers-MC1.12.2-1.7.4.153.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/OpenComputers-MC1.12.2-1.7.4.153.jar",
+            "size": 15545293,
+            "hash": "7cec1ac46d81f817f2032cfab5a7780074cb775a"
+        },
+        {
+            "path": "forgiacraft2/mods/OpenModsLib-1.12.2-0.12.1.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/OpenModsLib-1.12.2-0.12.1.jar",
+            "size": 2639564,
+            "hash": "9c1f77e532ad25223e8ea315cdec832cba2ab1cd"
+        },
+        {
+            "path": "forgiacraft2/mods/OpenPrinter-1.12.2-0.1.0.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/OpenPrinter-1.12.2-0.1.0.2.jar",
+            "size": 210911,
+            "hash": "b1cfbc11881524bd164d0feb6f99736fd379cd06"
+        },
+        {
+            "path": "forgiacraft2/mods/PTRLib-1.0.4.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/PTRLib-1.0.4.jar",
+            "size": 169483,
+            "hash": "956c2229276e91a53c91ae2c005630b57f382e95"
+        },
+        {
+            "path": "forgiacraft2/mods/Placebo-1.12.2-1.5.1.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Placebo-1.12.2-1.5.1.jar",
+            "size": 73345,
+            "hash": "07202fce9375d33a4937dddbd5122b4946d878d6"
+        },
+        {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-Base.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-Base.jar",
+            "size": 2032359,
+            "hash": "78c6848ab3a8145c54fbe188eee095cbf3e9fa3e"
+        },
+        {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-compat.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-compat.jar",
+            "size": 62460,
+            "hash": "18bd2b4c852180b857b2d020475da42731f106b1"
+        },
+        {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-fabrication.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-fabrication.jar",
+            "size": 1886213,
+            "hash": "3ed21f3e9cf91df465b42766e3bde60f8b9804db"
+        },
+        {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-integration.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-integration.jar",
+            "size": 3921871,
+            "hash": "734384210e12edebf55662b7754bf1746260fef7"
+        },
+        {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-lighting.jar",
+            "size": 724243,
+            "hash": "41c9af0313c0e5ac140c17c533594e682ad0ceb8"
+        },
+        {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-mechanical.jar",
+            "size": 2586694,
+            "hash": "037cb98ef6a580049139635f1437ecc9addb1ef5"
+        },
+        {
+            "path": "forgiacraft2/mods/Quark-r1.5-146.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Quark-r1.5-146.jar",
+            "size": 2055235,
+            "hash": "16f33ad28d43cfbf32f359a0f118fa6f773576fb"
+        },
+        {
+            "path": "forgiacraft2/mods/StorageDrawers-1.12.2-5.3.8.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/StorageDrawers-1.12.2-5.3.8.jar",
+            "size": 596220,
+            "hash": "edaf9c1a18c2565faa8fdea5f5579a824a6be665"
+        },
+        {
+            "path": "forgiacraft2/mods/TConstruct-1.12.2-2.12.0.115.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/TConstruct-1.12.2-2.12.0.115.jar",
+            "size": 3945715,
+            "hash": "95accf3a453408e2efa4c9d4e08231bd1ed6f8d7"
+        },
+        {
+            "path": "forgiacraft2/mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
+            "size": 95850,
+            "hash": "e66f589359ca7f1b12bea1dccedc0000ce262daf"
+        },
+        {
+            "path": "forgiacraft2/mods/Toast+Control-1.12.2-1.8.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Toast%2BControl-1.12.2-1.8.0.jar",
+            "size": 21748,
+            "hash": "768c918e6624bcb34858d3611afe59bc97b06eb6"
+        },
+        {
+            "path": "forgiacraft2/mods/aether_ii-0.1.1-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/aether_ii-0.1.1-universal.jar",
+            "size": 37595628,
+            "hash": "c00f26030c9198065d4ccc3e8bcdeec773e40183"
+        },
+        {
+            "path": "forgiacraft2/mods/badwithernocookiereloaded-1.12.2-3.3.16.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/badwithernocookiereloaded-1.12.2-3.3.16.jar",
+            "size": 11034,
+            "hash": "2651e4a1ef220dc5f28d1653b95846b60a9bdddf"
+        },
+        {
+            "path": "forgiacraft2/mods/chiselsandbits-14.31.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/chiselsandbits-14.31.jar",
+            "size": 730321,
+            "hash": "c902aa05320be394d89f971ef6b226cf756a71fd"
+        },
+        {
+            "path": "forgiacraft2/mods/conarm-1.12.2-1.2.3.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/conarm-1.12.2-1.2.3.jar",
+            "size": 864305,
+            "hash": "5feeb0006c373d63048377a4b290b08ff2c86681"
+        },
+        {
+            "path": "forgiacraft2/mods/foamfix-0.10.3-1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/foamfix-0.10.3-1.12.2.jar",
+            "size": 216000,
+            "hash": "e79ff48d1b18c2dd5de866bb79fa5fd07d24ebda"
+        },
+        {
+            "path": "forgiacraft2/mods/furniture-6.2.0-1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/furniture-6.2.0-1.12.2.jar",
+            "size": 2392284,
+            "hash": "392240b511b00df874593f728e26ad4ea35255d2"
+        },
+        {
+            "path": "forgiacraft2/mods/iChunUtil-1.12.2-7.2.1.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/iChunUtil-1.12.2-7.2.1.jar",
+            "size": 581642,
+            "hash": "19b4c6d577e55349ce33bf36bc037fb0aeab740c"
+        },
+        {
+            "path": "forgiacraft2/mods/infinitylib-1.12.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/infinitylib-1.12.0.jar",
+            "size": 858298,
+            "hash": "a7f1d2d44ea5dc459bed0aaa2eec7e04273a9f27"
+        },
+        {
+            "path": "forgiacraft2/mods/ironchest-1.12.2-7.0.59.842.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ironchest-1.12.2-7.0.59.842.jar",
+            "size": 952833,
+            "hash": "e6aec0f6ff8146b532dadc6b53aec017af1c2bd3"
+        },
+        {
+            "path": "forgiacraft2/mods/jei_1.12.2-4.15.0.268.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/jei_1.12.2-4.15.0.268.jar",
+            "size": 647239,
+            "hash": "1ae1547a67e28442fe66090253453c70aec13a59"
+        },
+        {
+            "path": "forgiacraft2/mods/journeymap-1.12.2-5.5.4.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/journeymap-1.12.2-5.5.4.jar",
+            "size": 1845450,
+            "hash": "7084505c013adccb969d0fb3e8229d18ff3a28ed"
+        },
+        {
+            "path": "forgiacraft2/mods/malisiscore-1.12.2-6.5.1.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/malisiscore-1.12.2-6.5.1.jar",
+            "size": 1939783,
+            "hash": "fa7589615f372aad21df668d873f0a1e7bc700be"
+        },
+        {
+            "path": "forgiacraft2/mods/malisisdoors-1.12.2-7.3.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/malisisdoors-1.12.2-7.3.0.jar",
+            "size": 1741669,
+            "hash": "efec722466dd8e822fedcf55a8f29b2a25c9f533"
+        },
+        {
+            "path": "forgiacraft2/mods/ocdevices-snapshot_20190121.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ocdevices-snapshot_20190121.jar",
+            "size": 102014,
+            "hash": "98074abf43a51bf51ed312a02a5bcd8a6d6f0741"
+        },
+        {
+            "path": "forgiacraft2/mods/ocsensors-1.0.4-b23.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ocsensors-1.0.4-b23.jar",
+            "size": 81332,
+            "hash": "be2bc6ee059c04eff84945798f669a31231e66d2"
+        },
+        {
+            "path": "forgiacraft2/mods/railcraft-12.0.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/railcraft-12.0.0.jar",
+            "size": 5541089,
+            "hash": "c20ba9b02461b4e11c4c2e8c66dbde3129405a97"
+        },
+        {
+            "path": "forgiacraft2/mods/reauth-3.6.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/reauth-3.6.0.jar",
+            "size": 30446,
+            "hash": "61c2e0663d61986e7d9e30427278e2ff9c92d062"
+        }
+    ]
+}
