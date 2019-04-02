@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="forgiagent:jar">
+    <output-path>$USER_HOME$/.minecraft</output-path>
+    <root id="archive" name="forgiagent.jar">
+      <element id="module-output" name="ForgiAgent2.0" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../java_libraries/tools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../java_libraries/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../java_libraries/commons-codec-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../java_libraries/gson-2.2.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
