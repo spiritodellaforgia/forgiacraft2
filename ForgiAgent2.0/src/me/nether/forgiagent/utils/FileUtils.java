@@ -1,7 +1,5 @@
 package me.nether.forgiagent.utils;
 
-//import org.apache.commons.codec.binary.Base64;
-
 import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 import java.io.*;
 import java.net.URI;
@@ -18,18 +16,17 @@ import java.util.jar.JarFile;
  * File Utils
  *
  * @author NetherSoul
+ * @credits some utils from the old MC launcher
  */
 public class FileUtils {
 
-//    public static void saveFileFromBase64(File where, String encoded) {
-//        try {
-//            byte array[] = Base64.decodeBase64(encoded);
-//            org.apache.commons.io.FileUtils.writeByteArrayToFile(where, array);
-//        } catch (Exception ex) {
-//            ex.printStackTrace();
-//        }
-//    }
-
+    /**
+     * Copies a file from a source to a destination
+     *
+     * @param source File to be copied
+     * @param dest   File where the source will be copied
+     * @throws IOException
+     */
     public static void copyFile(File source, File dest) throws IOException {
         if (source.getPath().equals(dest.getPath())) return;
         InputStream is = null;
@@ -42,7 +39,7 @@ public class FileUtils {
             while ((length = is.read(buffer)) > 0) {
                 os.write(buffer, 0, length);
             }
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
             is.close();
@@ -50,6 +47,11 @@ public class FileUtils {
         }
     }
 
+    /**
+     * Used to get the executing jar file directory
+     *
+     * @return current jar directory
+     */
     public static File getCurrentJarPath() {
         try {
             return new File(FileUtils.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
@@ -59,15 +61,23 @@ public class FileUtils {
         return null;
     }
 
+    /**
+     * Gets the size of a folder's file recursively
+     * <p>
+     * DOESN'T count the folder size itself, only the files inside
+     *
+     * @param path
+     * @return
+     */
     public static long getDirSize(File path) {
         long size = 0;
 
-        if(path.listFiles() == null) {
+        if (path.listFiles() == null) {
             return size;
         }
 
         for (File file : path.listFiles()) {
-            if(file.isDirectory()) {
+            if (file.isDirectory()) {
                 size += getDirSize(file);
             } else {
                 size += file.length();
@@ -77,6 +87,12 @@ public class FileUtils {
         return size;
     }
 
+    /**
+     * Recurively lists the file in a Directory, without the directories themselves
+     *
+     * @param path of the folder to check
+     * @return List of files inside the folder, and the files inside the folders of the path (etc... etc...)
+     */
     public static List<File> listFiles(File path) {
         List<File> fileList = new ArrayList<File>();
 
@@ -96,6 +112,15 @@ public class FileUtils {
         return fileList;
     }
 
+    /**
+     * Similar to listFiles, but with the option to keep folders in the list
+     * <p>
+     * TODO: unify all 3 methods
+     *
+     * @param path
+     * @param keepDirectories
+     * @return List of files in the folder ...
+     */
     public static List<File> getAllFilesInFolder(File path, boolean keepDirectories) {
         List<File> fileList = new ArrayList<File>();
 
@@ -113,6 +138,16 @@ public class FileUtils {
         return fileList;
     }
 
+    /**
+     * Same as above, but with exclude pattern
+     * <p>
+     * TODO: Unify
+     *
+     * @param path
+     * @param keepDirectories
+     * @param exclude
+     * @return List of files in the folder ...
+     */
     public static List<File> getAllFilesInFolder(File path, boolean keepDirectories, String... exclude) {
         List<File> fileList = new ArrayList<File>();
 
@@ -136,6 +171,13 @@ public class FileUtils {
         return fileList;
     }
 
+    /**
+     * Turns the lines of a file into a List of strings
+     *
+     * @param file to read
+     * @return List of strings from the File
+     * @throws Exception
+     */
     public static List<String> readFileLines(File file) throws Exception {
         List<String> lines = new ArrayList<String>();
         BufferedReader reader = new BufferedReader(new FileReader(file));
@@ -147,38 +189,53 @@ public class FileUtils {
         return lines;
     }
 
-    public static List<String> readUrlResponse(URL url) {
-        try {
-            List<String> lines = new ArrayList<String>();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
-            for (String s : reader.readLine().split(":")) {
-                lines.add(s);
-            }
-            reader.close();
-            return lines;
-        } catch (Exception e) {
+    /**
+     * Turns the response of a basic http request to a List of strings
+     * <p>
+     * Used only on single line response type, with a separator pattern
+     *
+     * @param url       to connect to
+     * @param separator split parameter
+     * @return List of strings from the response
+     */
+    public static List<String> readUrlLineResponseSplitted(URL url, String separator) throws Exception {
+        List<String> lines = new ArrayList<String>();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+        for (String s : reader.readLine().split(separator)) {
+            lines.add(s);
         }
-        return null;
+        reader.close();
+        return lines;
     }
 
-    public static List<String> readUrlResponseFull(URL url) {
-        try {
-            List<String> lines = new ArrayList<String>();
-            BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+    /**
+     * Turns the response's lines of a basic http request to a List of strings
+     *
+     * @param url
+     * @return List of strings from the response
+     * @throws Exception
+     */
+    public static List<String> readUrlResponse(URL url) throws Exception {
+        List<String> lines = new ArrayList<String>();
+        BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 
-            String inputLine;
-            while ((inputLine = in.readLine()) != null) {
-                if (!inputLine.isEmpty()) {
-                    lines.add(inputLine);
-                }
+        String inputLine;
+        while ((inputLine = in.readLine()) != null) {
+            if (!inputLine.isEmpty()) {
+                lines.add(inputLine);
             }
-            in.close();
-            return lines;
-        } catch (Exception e) {
         }
-        return null;
+        in.close();
+        return lines;
     }
 
+    /**
+     * Prints a File from a List of strings
+     *
+     * @param dir  where to print
+     * @param list what to print
+     * @throws Exception
+     */
     public static void printFile(File dir, List<String> list) throws Exception {
         PrintWriter writer = new PrintWriter(dir);
         for (Object o : list) {
@@ -188,6 +245,13 @@ public class FileUtils {
         writer.close();
     }
 
+    /**
+     * Same as above but with an array given instead of a list
+     *
+     * @param dir  where to print
+     * @param list what to print
+     * @throws Exception
+     */
     public static void printFile(File dir, String... list) throws Exception {
         PrintWriter writer = new PrintWriter(dir);
         for (Object o : list) {
@@ -197,6 +261,11 @@ public class FileUtils {
         writer.close();
     }
 
+    /**
+     * Checks if a directory exist, if not creates it
+     *
+     * @param dir to check
+     */
     public static void checkDirectory(File dir) {
         if (!dir.exists()) {
             dir.mkdirs();

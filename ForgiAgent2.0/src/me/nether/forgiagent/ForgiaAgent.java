@@ -8,13 +8,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.lang.instrument.Instrumentation;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
 
 public class ForgiaAgent {
 
-    private static final boolean DEV_ENABLED = true;
+//    private static final boolean DEV_ENABLED = true;
 
     /**
      * Used to log into the swing gui, maybe could have done it in a better way: see log(Object... obj) method for reference
@@ -36,6 +35,10 @@ public class ForgiaAgent {
      */
     private static List<File> mods = new ArrayList<>(), toMove = new ArrayList<>();
 
+
+    /**
+     * Forge installer file, null by default, set when reading manifest since the name may vary
+     */
     private static File forgeFile = null;
 
     /**
@@ -53,14 +56,15 @@ public class ForgiaAgent {
         Installer.instance.autoHide.setState(false);
         Installer.instance.autoHide.setVisible(false);
 
-        //TODO: gamedir fix
         String gameDir = FileUtils.getWorkingDirectory().getAbsolutePath();
 
+        /* Forces the forge installer download, enables the progress bar */
         Rectangle oldBounds = Installer.instance.frame.getBounds();
         Installer.instance.frame.setBounds(oldBounds.x, oldBounds.y, oldBounds.width, oldBounds.height + 50);
 
         download(new File(gameDir), manifest_url, true, "forge");
 
+        /* Removes the progress bar & download status after finishing download */
         Installer.instance.frame.setBounds(oldBounds);
         Installer.instance.downloadStatus.setVisible(false);
 
@@ -69,10 +73,10 @@ public class ForgiaAgent {
 
     /**
      * Installer method
-     *
+     * <p>
      * Reads up launcher_profiles from MC launcher to modify and add the java arguments required to be launched
      * with the usual MC start up
-     *
+     * <p>
      * The file copies himself into the MC directory since it does contain everything to start before the launcher
      * directly within itself, without the need to download another file
      *
@@ -84,35 +88,22 @@ public class ForgiaAgent {
         File profiles_json = new File(directory, "launcher_profiles.json");
         File agentFile = new File(directory, "forgiagent.jar");
 
+        /* Stupidity check if the forge installer hasn't been downloaded yet (and stupid method to check it) */
         if (!Installer.instance.console.getText().contains("Download completed")) {
             JOptionPane.showMessageDialog(Installer.instance.frame, "Please wait until forge is downloaded, please check console!");
             return false;
         }
 
-        try {
-            Process peepee = Runtime.getRuntime().exec("java -jar " + forgeFile.getAbsolutePath());
-            log("Launching forge installer...");
-
-            /* Logging forge installer process */
-            String readLine;
-            BufferedReader br = new BufferedReader(new InputStreamReader(peepee.getInputStream()));
-            while (((readLine = br.readLine()) != null)) {
-                System.out.println(readLine);
-            }
-
-            peepee.waitFor();
-        } catch (Exception ex) {
-            JOptionPane.showMessageDialog(Installer.instance.frame, Installer.instance.errors_type.isSelected() ?
-                    "Forge installer is somehow bugged, retry" :
-                    "Non ho trovato in buono stato l'installer di forge, riprova.");
-
-            ex.printStackTrace();
+        /* Tries to install forge, and if the installation fails, stops the installations and prompts to retry */
+        boolean forgeInstallation = runForgeProcess();
+        if (!forgeInstallation)
             return false;
-        }
 
+        /* Retrieves the profiles from the launcher_profiles.json, now automated (manually checked before) */
         Installer.instance.profiles = Installer.instance.getProfiles(directory);
 
-        ForgiaAgent.log("Logging profiles...");
+        /* Logs profiles (only when launcher by command line) */
+        System.out.println("Logging profiles...");
         Installer.instance.profiles.forEach((s, s2) -> System.out.println(s + ": " + s2));
 
         if (!Installer.instance.profiles.containsValue("forge")) {
@@ -125,33 +116,46 @@ public class ForgiaAgent {
             return false;
         }
 
+        /* Setups the modified launcher_profiles.json */
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         JsonParser p = new JsonParser();
         JsonObject main = p.parse(new FileReader(profiles_json)).getAsJsonObject();
         JsonObject profiles = main.get("profiles").getAsJsonObject();
         JsonObject current = profiles.getAsJsonObject("forge");
 
-        log("Replacing javaArgs value: adding the whole string...");
+        String formattedJavaArgs = String.format(argsFormat, Installer.instance.dedicatedRam.getText(), agentFile.getPath());
 
-        current.addProperty("javaArgs", String.format(argsFormat, Installer.instance.dedicatedRam.getText(), agentFile.getPath()));
+        log("Replacing javaArgs value... (", formattedJavaArgs, ")");
 
-        current.remove("gameDir");
+        if (current.has("javaArgs"))
+            current.remove("javaArgs");
+        current.addProperty("javaArgs", formattedJavaArgs);
+
+        log("Setting up ModPack folder as selected in the GUI... (", Installer.instance.modpack_directory.getText());
+
+        if (current.has("gameDir"))
+            current.remove("gameDir");
         current.addProperty("gameDir", Installer.instance.modpack_directory.getText());
 
-        /** resetting lastUsed to have it first on a new launch */
-        current.remove("lastUsed");
-        SimpleDateFormat dateFormat = new SimpleDateFormat("YYYY-MM-dd#HH:mm:ss.420_");
-        current.addProperty("lastUsed", dateFormat.format(new Date()).replaceAll("#", "T").replaceAll("_", "Z"));
+        log("Replacing profile name to", "ForgiaModPac 2.0", "to keep things clean...");
 
-        current.remove("name");
+        if (current.has("name"))
+            current.remove("name");
         current.addProperty("name", "ForgiaModPack 2.0");
 
+        /* Copies the agent file to the .minecraft folder, since it contains both Installer & javaagent*/
         try {
+            log("Attempting copy of the agent into the .minecraft folder...");
+
             FileUtils.copyFile(FileUtils.getCurrentJarPath(), agentFile);
+
+            log("... Successful!");
         } catch (Exception ex) {
             log("Couldn't copy the agent to his correct folder.");
             ex.printStackTrace();
         }
+
+        log("Printing new launcher_profiles.json file...");
 
         FileUtils.printFile(profiles_json, gson.toJson(main));
 
@@ -160,10 +164,10 @@ public class ForgiaAgent {
 
     /**
      * Method used when launched as a Java Agent, so after the setup is done and the MC launcher is loading the game
-     *
+     * <p>
      * Launcher download method that checks the current online manifest.json with the one stored locally
      * to see if somethings needs to be updated or downloaded fresh new
-     *
+     * <p>
      * then launches the hideMods method which stores unused/old mods into a temporary directory
      * the user will then decide to delete them or do something else with them
      *
@@ -181,18 +185,23 @@ public class ForgiaAgent {
         Installer.instance.downloadStatus.setVisible(true);
         Installer.instance.progressBar.setVisible(true);
 
+        /* Used to retrieve the game folder, contained in the jvm launched by MC client*/
         String args = System.getProperty("sun.java.command");
         String split[] = args.split("--gameDir ");
-
-
         String gameDir = split[1].split("--")[0].trim();
+
         log(String.format("Found gameDir: %s . Working on it to setup all the mods correctly...", gameDir));
-        File modsFolder = new File(gameDir, "mods");
 
-        FileUtils.checkDirectory(modsFolder);
 
+        //TODO: Check if this is effectively useuful
+
+//        File modsFolder = new File(gameDir, "mods");
+//        FileUtils.checkDirectory(modsFolder);
+
+        /* Launches the update & download process */
         download(new File(gameDir), manifest_url, false);
 
+        /* Removes the progress bar after everything has been downloaded */
         Installer.instance.frame.setSize(Installer.instance.frame.getWidth(), Installer.instance.frame.getHeight() - 69);
 
         if (Installer.instance.autoHide.getState()) {
@@ -204,15 +213,15 @@ public class ForgiaAgent {
 
     /**
      * Downloads everything given the current manifest
-     *
+     * <p>
      * Stores information about the download in a new manifest file on disk
      * It is updated with any file downloaded, so it only stores the files that are
      * effectively present on disk.
      *
-     * @param gamedir       Current Minecraft directory for the profile
-     * @param manifest_url  manifest.json url from the repository
-     * @param onlyForced    Used by installer to get the forge jar, forces download of forceChecks folders (if true the normal files are skipped)
-     * @param forceChecks   Array of folders to forceupdate
+     * @param gamedir      Current Minecraft directory for the profile
+     * @param manifest_url manifest.json url from the repository
+     * @param onlyForced   Used by installer to get the forge jar, forces download of forceChecks folders (if true the normal files are skipped)
+     * @param forceChecks  Array of folders to forceupdate
      */
     private static void download(File gamedir, String manifest_url, boolean onlyForced, String... forceChecks) {
         try {
@@ -252,6 +261,7 @@ public class ForgiaAgent {
 
                     File file = new File(gamedir, path);
 
+                    /* Initializes forge file since found in the manifest */
                     if (obj.get("path").getAsString().contains("/forge/")) {
                         forgeFile = file;
                     }
@@ -261,14 +271,17 @@ public class ForgiaAgent {
                     }
 
                     try {
+                        //adds to the manifest the json object of the correspondent file downloaded
                         files.add(obj);
 
+                        //removes and rewrites the files JsonArray
                         if (new_manifest.get("files") != null) {
                             new_manifest.remove("files");
                         }
 
                         new_manifest.add("files", files);
 
+                        /* Prints the new manifest to file (performed every file downloaded) */
                         Gson gson = new GsonBuilder().setPrettyPrinting().create();
                         FileUtils.printFile(old_manifest_file, gson.toJson(new_manifest));
                     } catch (Exception ex) {
@@ -291,9 +304,9 @@ public class ForgiaAgent {
     /**
      * Downloads a file
      *
-     * @param path          path from the manifest
-     * @param download_url  github raw download
-     * @param file          where it will be downloaded
+     * @param path         path from the manifest
+     * @param download_url github raw download
+     * @param file         where it will be downloaded
      */
     private static void performDownload(String path, String download_url, File file) {
         try {
@@ -394,6 +407,7 @@ public class ForgiaAgent {
     /**
      * Checks if a file needs update
      * Used checks: file is present, size is correct, hash is present, hash is correct
+     *
      * @param file
      * @param oldFile
      * @param old_manifest
@@ -467,6 +481,37 @@ public class ForgiaAgent {
     private static JsonObject getJsonObject(String request_url) {
         JsonObject jsonResponse = new JsonParser().parse(NetworkUtils.getResponseBody(request_url)).getAsJsonObject();
         return jsonResponse;
+    }
+
+    /**
+     * Runs forge setup by running the downloaded installer from the manifest
+     *
+     * @return true if the installer has ended peacefully : false otherwise
+     */
+    private static boolean runForgeProcess() {
+        try {
+            Process peepee = Runtime.getRuntime().exec("java -jar " + forgeFile.getAbsolutePath());
+            log("Launching forge installer...");
+
+            /* Logging forge installer process */
+            String readLine;
+            BufferedReader br = new BufferedReader(new InputStreamReader(peepee.getInputStream()));
+            while (((readLine = br.readLine()) != null)) {
+                System.out.println(readLine);
+            }
+
+            peepee.waitFor();
+
+            return true;
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(Installer.instance.frame, Installer.instance.errors_type.isSelected() ?
+                    "Forge installer is somehow bugged, retry" :
+                    "Non ho trovato in buono stato l'installer di forge, riprova.");
+
+            ex.printStackTrace();
+        }
+
+        return false;
     }
 
     /**

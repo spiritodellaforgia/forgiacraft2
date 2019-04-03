@@ -19,19 +19,33 @@ import java.util.stream.Collectors;
 
 public class Installer {
 
-    /** Installer instance since this is a singleton */
+    /**
+     * Installer instance since this is a singleton
+     */
     public static Installer instance;
 
-    /** Used to be sure every component is loaded correctly within different threads */
+    /**
+     * Used to be sure every component is loaded correctly within different threads
+     */
     private boolean finishedLoading;
 
-    /** Maps the MC profiles as name - content */
+    /**
+     * Maps the MC profiles as name - content
+     */
     public Map<String, String> profiles;
 
-    /** MC installation directory */
+    /**
+     * MC installation directory
+     */
     private File installDirectory;
 
     private boolean showInstaller;
+
+    /**
+     * JSwing components
+     */
+
+    /*____________________________________________________*/
 
     public JFrame frame;
     public ImagePanel logo, logo2;
@@ -49,6 +63,9 @@ public class Installer {
 
     public Checkbox autoHide;
     public JCheckBox errors_type;
+
+    /*____________________________________________________*/
+
 
     /**
      * Launches the application.
