@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-io-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../java_libraries/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../java_libraries/commons-codec-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../java_libraries/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../java_libraries/tools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../java_libraries/tools.jar!/" />
+    </SOURCES>
+  </library>
+</component>

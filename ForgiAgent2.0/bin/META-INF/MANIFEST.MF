@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: .
+Main-Class: me.nether.forgiagent.ForgiaAgent
+Premain-Class: me.nether.forgiagent.ForgiaAgent
