@@ -2,11 +2,11 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "469a13537363f4f6350b33e44a2fb12bd5e3d248"
+            "hash": "73d8cf3fcaea98422070cf47b1eabb3cd0c69016"
         },
         {
             "name": "config",
-            "hash": "ca33bc1035d4e00e20179e40efb988f37c6193c2"
+            "hash": "bd3516d239c04cba013f80ad2c814a1c977492cc"
         },
         {
             "name": "forge",
@@ -30,7 +30,7 @@
             "path": "forgiacraft2/config/Aether/analytics.json.gz",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/Aether/analytics.json.gz",
             "size": 106,
-            "hash": "2b1479ebf518ef69c79208103bbc1ab0b533133d"
+            "hash": "14253eb5cd390673969108fbaf7cf3f2c4d3c397"
         },
         {
             "path": "forgiacraft2/config/ChickenChunks.cfg",
@@ -48,7 +48,7 @@
             "path": "forgiacraft2/config/InvTweaks.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/InvTweaks.cfg",
             "size": 725,
-            "hash": "cfee133a50a923e42b9fcafd93da505a47f14707"
+            "hash": "18edc9fbd627fdd70fd310bdc2b06131b18858d7"
         },
         {
             "path": "forgiacraft2/config/InvTweaksRules.txt",
@@ -330,7 +330,7 @@
             "path": "forgiacraft2/config/ichunutil.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ichunutil.cfg",
             "size": 3370,
-            "hash": "337acdd52bc6fe44ca51c4f5c15c2ee33c885750"
+            "hash": "2a7b4654e595588c2ce59fecc3537aa5fe908001"
         },
         {
             "path": "forgiacraft2/config/ichunutil_keybinds.cfg",
@@ -389,8 +389,8 @@
         {
             "path": "forgiacraft2/config/jei/worldSettings.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/jei/worldSettings.cfg",
-            "size": 3088,
-            "hash": "02eb3176cb8c4c0134671ce804dcd20a92b38fba"
+            "size": 3243,
+            "hash": "f91213c11d1872d34746ae070d21abb62518aa37"
         },
         {
             "path": "forgiacraft2/config/journeymap_ModInfo.cfg",
@@ -546,7 +546,7 @@
             "path": "forgiacraft2/config/splash.properties",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/splash.properties",
             "size": 359,
-            "hash": "e353e6f5fcdbe012c1c99d737f4bb341b96fed16"
+            "hash": "0500865e1b31ab6be1bc1865f0228b2798775379"
         },
         {
             "path": "forgiacraft2/config/storagedrawers.cfg",
@@ -709,12 +709,6 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
             "size": 1304914,
             "hash": "1f490412707dae0fe61ad916b3c03e7fee121d66"
-        },
-        {
-            "path": "forgiacraft2/mods/Forgia Utils-1.6.jar",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Forgia%20Utils-1.6.jar",
-            "size": 39226,
-            "hash": "9aea3cf34cc04a6c4333bebd953140c6b1e0d5bd"
         },
         {
             "path": "forgiacraft2/mods/Hats-1.12.2-7.0.2.jar",
