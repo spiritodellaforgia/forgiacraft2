@@ -2,11 +2,11 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "97654e4d33d493e0e7f1c7ce198ad3510cf72dda"
+            "hash": "26d1bd9512bcb6f5eccb44062e0878610b4b62de"
         },
         {
             "name": "config",
-            "hash": "946cb97e0e5330fb6c9a5c4afcd65805a5ab4a7b"
+            "hash": "80486882053eb03fc437d2e767827e4760e376f2"
         },
         {
             "name": "forge",
@@ -14,6 +14,12 @@
         }
     ],
     "files": [
+        {
+            "path": "forgiacraft2/.ReAuth.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/.ReAuth.cfg",
+            "size": 361,
+            "hash": "97b986507deee225b418bdd3e9c40a57bc0cc0ed"
+        },
         {
             "path": "forgiacraft2/README.md",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/README.md",
@@ -23,8 +29,8 @@
         {
             "path": "forgiacraft2/config/Aether/analytics.json.gz",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/Aether/analytics.json.gz",
-            "size": 278,
-            "hash": "d2856523b320416bebda2a4ebd5e08833e305ebb"
+            "size": 106,
+            "hash": "2b1479ebf518ef69c79208103bbc1ab0b533133d"
         },
         {
             "path": "forgiacraft2/config/ChickenChunks.cfg",
@@ -41,8 +47,8 @@
         {
             "path": "forgiacraft2/config/InvTweaks.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/InvTweaks.cfg",
-            "size": 724,
-            "hash": "2f3ea885ceddd1c27717149b62490e35bb7781b3"
+            "size": 725,
+            "hash": "b33c97b244d47ae934d9df9d2b4ad7af32a1eedb"
         },
         {
             "path": "forgiacraft2/config/InvTweaksRules.txt",
@@ -71,8 +77,8 @@
         {
             "path": "forgiacraft2/config/ProjectRed.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ProjectRed.cfg",
-            "size": 5174,
-            "hash": "998ebf27992d2aadf7e5ebaaca4ef49de2d465b1"
+            "size": 5178,
+            "hash": "4cd202cb77bb52b11065e73fa00f5991fcba8b07"
         },
         {
             "path": "forgiacraft2/config/ProjectRedRelocation.cfg",
@@ -155,8 +161,8 @@
         {
             "path": "forgiacraft2/config/chiselsandbits.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/chiselsandbits.cfg",
-            "size": 13441,
-            "hash": "b5c459cecdd5d86d7f8d4c692e2e0c47c52e1e78"
+            "size": 13880,
+            "hash": "0ea2f0593b6b6d1de1c40589e3f37f8c5c4730ab"
         },
         {
             "path": "forgiacraft2/config/chiselsandbits_clipboard.cfg",
@@ -181,6 +187,72 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/codechickenlib.cfg",
             "size": 1472,
             "hash": "0d9ca7cdb9595d422bfca7fad04aeae7b9698c87"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/core/client.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/core/client.cfg",
+            "size": 1660,
+            "hash": "5a365600a5ef8067c8e7ca1b675a3b38ecbe7ec0"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/core/common.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/core/common.cfg",
+            "size": 3999,
+            "hash": "557e321d60b90fefcec24f1dde9b97ae14325f7f"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/core/friends.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/core/friends.cfg",
+            "size": 0,
+            "hash": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/thermalfoundation/client.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/thermalfoundation/client.cfg",
+            "size": 1526,
+            "hash": "bb84aae62df0c53b1bb527a076270fd1128d2229"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/thermalfoundation/common.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/thermalfoundation/common.cfg",
+            "size": 16380,
+            "hash": "0d4b683445aab3e9a7e015db150b0e23dd6aeddc"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/thermalfoundation/lexicon-whitelist.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/thermalfoundation/lexicon-whitelist.cfg",
+            "size": 5561,
+            "hash": "29d38832b131113982d3828d61d2697a22c76937"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/world/00_minecraft.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/00_minecraft.json",
+            "size": 6643,
+            "hash": "a9d2a7cd4175a7c4791777fa77a90041e1b6a1cd"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/world/01_thermalfoundation_ores.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/01_thermalfoundation_ores.json",
+            "size": 4373,
+            "hash": "2a63786f1d72e4bb2e9a90872d7f2b74a3db060e"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/world/02_thermalfoundation_oil.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/02_thermalfoundation_oil.json",
+            "size": 3391,
+            "hash": "169a095ed3d8de5621d6d7ef2fb4daa4b5886de3"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/world/03_thermalfoundation_clathrates.json",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/03_thermalfoundation_clathrates.json",
+            "size": 1925,
+            "hash": "87b0620492ed5190f967f7c730b6afb72021f857"
+        },
+        {
+            "path": "forgiacraft2/config/cofh/world/config.cfg",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/config.cfg",
+            "size": 1443,
+            "hash": "fec769f21ed2f3a08c776cdb6b0812f9cc75d43e"
         },
         {
             "path": "forgiacraft2/config/conarm.cfg",
@@ -258,7 +330,7 @@
             "path": "forgiacraft2/config/ichunutil.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/ichunutil.cfg",
             "size": 3370,
-            "hash": "c4d5eb119fc4017d2691569e8538cb11727bebcc"
+            "hash": "337acdd52bc6fe44ca51c4f5c15c2ee33c885750"
         },
         {
             "path": "forgiacraft2/config/ichunutil_keybinds.cfg",
@@ -317,8 +389,8 @@
         {
             "path": "forgiacraft2/config/jei/worldSettings.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/jei/worldSettings.cfg",
-            "size": 1546,
-            "hash": "e67cb307a4b83416e1d50fa21a0473771f41e507"
+            "size": 3088,
+            "hash": "02eb3176cb8c4c0134671ce804dcd20a92b38fba"
         },
         {
             "path": "forgiacraft2/config/journeymap_ModInfo.cfg",
@@ -459,64 +531,22 @@
             "hash": "d5614adb706fe05dd6ef5dac7307714af964179a"
         },
         {
-            "path": "forgiacraft2/config/railcraft/ores/mine_copper.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_copper.cfg",
-            "size": 9052,
-            "hash": "f6d5774d08f2d15aae89724f1584e6aea8b43d8c"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_gold.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_gold.cfg",
-            "size": 9050,
-            "hash": "dab37a40457c8231ced68a3a84eaea75d2dffc86"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_iron.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_iron.cfg",
-            "size": 9052,
-            "hash": "e57df59f74b730ef976c112e187e960b18b8e106"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_lead.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_lead.cfg",
-            "size": 9052,
-            "hash": "71099f4a5f7a2737e766b68bbc4ee2cc23c6c1cb"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_nickel.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_nickel.cfg",
-            "size": 9052,
-            "hash": "fd6c9b4fa2e66c20a9033bc2fe135ee651203006"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_silver.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_silver.cfg",
-            "size": 9052,
-            "hash": "3f7fcc9615045c57fb1ad5e83f846c812316cdfc"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_tin.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_tin.cfg",
-            "size": 9052,
-            "hash": "6b97d5d6d2947a8ffea0cfb35a5cd536dc92d432"
-        },
-        {
-            "path": "forgiacraft2/config/railcraft/ores/mine_zinc.cfg",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/ores/mine_zinc.cfg",
-            "size": 9052,
-            "hash": "a9d7ede14b04604177d6dc53876fec9999f649ec"
-        },
-        {
             "path": "forgiacraft2/config/railcraft/railcraft.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/railcraft/railcraft.cfg",
             "size": 21391,
             "hash": "dbdeab4e539e0bb130ee3a0e0a48389cb195da7c"
         },
         {
+            "path": "forgiacraft2/config/sampler.ini",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/sampler.ini",
+            "size": 2861,
+            "hash": "70836d34cbcf36da61e4be3299d206fa91838d87"
+        },
+        {
             "path": "forgiacraft2/config/splash.properties",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/splash.properties",
-            "size": 358,
-            "hash": "2706e487acb6eeff38e0c9411579a2f640b5f9da"
+            "size": 359,
+            "hash": "770d4f2f95d90efc2eab9a15de1a40911ab5b335"
         },
         {
             "path": "forgiacraft2/config/storagedrawers.cfg",
@@ -559,6 +589,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/forge/forge-1.12.2-14.23.5.2823-installer.jar",
             "size": 5080660,
             "hash": "effc994d424ac6e2f9bead19c6990ac220a0a5cd"
+        },
+        {
+            "path": "forgiacraft2/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+            "size": 55622,
+            "hash": "58bd6b86626d586b907b206ef7b2bbd016faf369"
         },
         {
             "path": "forgiacraft2/mods/AgriCraft-2.12.0-1.12.0-a6.jar",
@@ -619,6 +655,18 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Clumps-3.1.2.jar",
             "size": 13792,
             "hash": "7957d77b3b1f21de0b668000aa76c3c469e91894"
+        },
+        {
+            "path": "forgiacraft2/mods/CoFHCore-1.12.2-4.6.2.25-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/CoFHCore-1.12.2-4.6.2.25-universal.jar",
+            "size": 844166,
+            "hash": "2234c7d5f8959204063b3fe7b098d6c3bb0fd8cb"
+        },
+        {
+            "path": "forgiacraft2/mods/CoFHWorld-1.12.2-1.3.0.6-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/CoFHWorld-1.12.2-1.3.0.6-universal.jar",
+            "size": 531831,
+            "hash": "19b0237c3e816b3c3e3ee7c73231ea5bf906bd95"
         },
         {
             "path": "forgiacraft2/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar",
@@ -789,10 +837,22 @@
             "hash": "037cb98ef6a580049139635f1437ecc9addb1ef5"
         },
         {
+            "path": "forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-world.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ProjectRed-1.12.2-4.9.1.92-world.jar",
+            "size": 501254,
+            "hash": "51743b3d8c0fdec67809fdd6f855da859049bc6c"
+        },
+        {
             "path": "forgiacraft2/mods/Quark-r1.5-146.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Quark-r1.5-146.jar",
             "size": 2055235,
             "hash": "16f33ad28d43cfbf32f359a0f118fa6f773576fb"
+        },
+        {
+            "path": "forgiacraft2/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
+            "size": 36278,
+            "hash": "da55ee41d74b5ce9247ce7b5f2768b72112369dc"
         },
         {
             "path": "forgiacraft2/mods/StorageDrawers-1.12.2-5.3.8.jar",
@@ -805,6 +865,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/TConstruct-1.12.2-2.12.0.115.jar",
             "size": 3945715,
             "hash": "95accf3a453408e2efa4c9d4e08231bd1ed6f8d7"
+        },
+        {
+            "path": "forgiacraft2/mods/ThermalFoundation-1.12.2-2.6.2.26-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ThermalFoundation-1.12.2-2.6.2.26-universal.jar",
+            "size": 2305489,
+            "hash": "35b6058b3178b205bec753cb776dffd4d6dccf27"
         },
         {
             "path": "forgiacraft2/mods/TinkerToolLeveling-1.12.2-1.1.0.jar",
@@ -855,6 +921,1194 @@
             "hash": "392240b511b00df874593f728e26ad4ea35255d2"
         },
         {
+            "path": "forgiacraft2/mods/hats/Abraham Lincoln Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Abraham%20Lincoln%20Hat.tbl",
+            "size": 1865,
+            "hash": "61ab405372640c5f5b13fdddbc5aecf4e52f7ccb"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/AppleHat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/AppleHat.tbl",
+            "size": 1423,
+            "hash": "bbe8d64b212d4d7dec2e07fd8e67c609dc5ebcde"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Arrow Head.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Arrow%20Head.tbl",
+            "size": 1230,
+            "hash": "51ca9dd2c62b82772a1cf728b4b3087f30cd75ac"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Arrowed Top Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Arrowed%20Top%20Hat.tbl",
+            "size": 1499,
+            "hash": "147dddfc32073b5e627dc644555034eb92a5509d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Ash's Cap.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Ash's%20Cap.tbl",
+            "size": 24469,
+            "hash": "14ed2c55d667e7763486d9cda8bc0268ff0da0ec"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Australian Minecart.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Australian%20Minecart.tbl",
+            "size": 6103,
+            "hash": "f4b5e1e70bfb25d041ee6309f0c45ef1a4d1ed36"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Axehead.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Axehead.tbl",
+            "size": 1679,
+            "hash": "6767a4b84b2dcfa2eef8a85081ec9abfc8b7756a"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/BSOD.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/BSOD.tbl",
+            "size": 1093,
+            "hash": "8c7a39a1e220f973b38780b23fed19c9919b64b7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Bane Mask.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Bane%20Mask.tbl",
+            "size": 2289,
+            "hash": "7eff9c5d6a722d1fec0154b533adda383aaebbe5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Breadfish Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Breadfish%20Hat.tbl",
+            "size": 1202,
+            "hash": "b817b860eff8f076819800bff75736843c13d5d3"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Cage Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Cage%20Hat.tbl",
+            "size": 4062,
+            "hash": "cfc6809f6ffa72a2b00ca89fd5dd1f1180a23ef8"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Cake Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Cake%20Hat.tbl",
+            "size": 1523,
+            "hash": "292b0b4c9af94ab3fd3854815a45f648c261647b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Cap.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Cap.tbl",
+            "size": 1119,
+            "hash": "91da87ae1c65d17721d8bb3650fd1789f1c627a0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Cat in the Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Cat%20in%20the%20Hat.tbl",
+            "size": 2103,
+            "hash": "6b692ee8cc56eae9ac860e15afdb95c06d7cae2e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/CheeseHat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/CheeseHat.tbl",
+            "size": 1935,
+            "hash": "f7d2718d2fec21c4f1f1f491adbb9a63fb8d1475"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Chest.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Chest.tbl",
+            "size": 2505,
+            "hash": "97a98536876ad67a4d35e5e0f840cbdc7aafc6bb"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Clip-On Halo.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Clip-On%20Halo.tbl",
+            "size": 927,
+            "hash": "28544ceb0fe12f1bba681327ff4113759384155b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Computer.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Computer.tbl",
+            "size": 1550,
+            "hash": "b3da0b134e4f39929187b5d345d7c98177153eb9"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Blkdragon112.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Blkdragon112.tbl",
+            "size": 9419,
+            "hash": "067f75385d4ec466801198bc8dcd4c981e57326b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) BlueTears__.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20BlueTears__.tbl",
+            "size": 1751,
+            "hash": "45e9b2ca7d9e07502fc5640a08a9aa22e5385c0f"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Chakorii.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Chakorii.tbl",
+            "size": 2633,
+            "hash": "4907b56a18a651d36f89b22fe3b4f63906d34866"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) CherryJimbo.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20CherryJimbo.tbl",
+            "size": 4114,
+            "hash": "8a77ea941fba5ad5a8908e7f23a9ce94528401e7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) ChipUK.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20ChipUK.tbl",
+            "size": 2102,
+            "hash": "b8a3d61c7c5b165eb8d13376fccdd8b907496f60"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Cieronph.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Cieronph.tbl",
+            "size": 1274,
+            "hash": "6f1f3ee028e281058c91422e8fbf3d3e8d54941c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Cloudhunter.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Cloudhunter.tbl",
+            "size": 2642,
+            "hash": "e6d2c1186b4548f27acf0cbd23205fc8dea9b96e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Cronoo.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Cronoo.tbl",
+            "size": 2158,
+            "hash": "8f4db04d090e6768e87ff106ae1311658407d60f"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) DJFLuFFy_vs_joe.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20DJFLuFFy_vs_joe.tbl",
+            "size": 3839,
+            "hash": "f81337e8d49727f53660dfd1b8d64b7146fe0dcd"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Datagne.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Datagne.tbl",
+            "size": 1878,
+            "hash": "49bb396d8a6e019c9f97970895fed29201f16ba6"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) DeCMK.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20DeCMK.tbl",
+            "size": 1580,
+            "hash": "c7ba96cb01200fcadeaa79fb3999a652f0645df5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Deadman775.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Deadman775.tbl",
+            "size": 2811,
+            "hash": "c1ecacc0bf70468da86ee667fba1e0cf0245a144"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) DigiplayW8 (2).tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20DigiplayW8%20(2).tbl",
+            "size": 1202,
+            "hash": "fa72b18b6f5d78561ae3921d137f7f4c521169f3"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) DigiplayW8.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20DigiplayW8.tbl",
+            "size": 3230,
+            "hash": "ccab5c069dc8bb53c809f744f51454d2280005a5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Direwolf20.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Direwolf20.tbl",
+            "size": 2400,
+            "hash": "ac9a21491e4fff0f58a52ad3043fe93ad9099d12"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) E.V.A..tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20E.V.A..tbl",
+            "size": 2506,
+            "hash": "4cca6aee592d607cc983afaa5c0b7996362e06ac"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) FireBall1725.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20FireBall1725.tbl",
+            "size": 2006,
+            "hash": "10362b14d7aad1b842ec234e77af31f75aa47332"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Fridgeboy.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Fridgeboy.tbl",
+            "size": 1603,
+            "hash": "6c24670039fe64f866eafffbc39bddf3f92506e8"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Grumpie.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Grumpie.tbl",
+            "size": 2675,
+            "hash": "eb7da2b36036bedec782781be30875eb2e9d351a"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) HaloBoy12321.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20HaloBoy12321.tbl",
+            "size": 2441,
+            "hash": "39b70b055540a29e1214dac551130e0a797bc3e5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Hanse00.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Hanse00.tbl",
+            "size": 2409,
+            "hash": "d4e64cd6c4f05f4102445178095a08d77a6986ec"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) IvyKirax.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20IvyKirax.tbl",
+            "size": 3132,
+            "hash": "4d9ea9e2b55a086fab0e8a68440279d66a379237"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Jahdoh.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Jahdoh.tbl",
+            "size": 1461,
+            "hash": "a5243b0d3649ae34a243c28f08b9e23c98c31930"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Jakja22.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Jakja22.tbl",
+            "size": 2462,
+            "hash": "5b9f5e31d47037595a3c67fb387ef59578cdb4dc"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) KaywinnitBeej.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20KaywinnitBeej.tbl",
+            "size": 1384,
+            "hash": "9a0f9231315f6fdccaeb25cb585f45e97fe5282a"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Kihira.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Kihira.tbl",
+            "size": 4051,
+            "hash": "cd65274aff23b1d5f3ab7736688355879369a3f5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Lambert2191.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Lambert2191.tbl",
+            "size": 2817,
+            "hash": "93f738d57b175d7a3ea8e1d6117fb6fa8cf62131"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) MidriffCryo.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20MidriffCryo.tbl",
+            "size": 2852,
+            "hash": "3f0b0ea0a0c3f2547ab59252fdd2a23c90c3c1c0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Morvelaira.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Morvelaira.tbl",
+            "size": 1761,
+            "hash": "21f665ccc18d63a974e21a0dcad73c9cfe0479bb"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Mr. Haz.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Mr.%20Haz.tbl",
+            "size": 2124,
+            "hash": "b5610cf9c0169bc1a64f9be7d1ac308dcc643e0f"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) MrMallenby.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20MrMallenby.tbl",
+            "size": 1980,
+            "hash": "36b621826ff33fafe2bdf3df84b3a3a05f3a6343"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) RoyalAngelzor.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20RoyalAngelzor.tbl",
+            "size": 2667,
+            "hash": "fc18b3b6b050767b207a6af3ff6530c2cad1d697"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) SitDownCreepa.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20SitDownCreepa.tbl",
+            "size": 2433,
+            "hash": "19b32c2fd6ad479a5ab6bdd7ec88d3b0a71bf45e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Soaryn.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Soaryn.tbl",
+            "size": 2992,
+            "hash": "25c3c15feab8744ea6591758c53dc278f1f24cb8"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Swisstobi.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Swisstobi.tbl",
+            "size": 3221,
+            "hash": "9859b9657612a3b6c7de096c28aed14a5f81432e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) TheForensicDuck.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20TheForensicDuck.tbl",
+            "size": 1877,
+            "hash": "c67773f7afc78747d4db328152127699b6b1eb86"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) TheMattaBase.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20TheMattaBase.tbl",
+            "size": 18856,
+            "hash": "dec8d8bb8451ae7b3fd543476be3e1506fcdee01"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) TheMusicalBoy93.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20TheMusicalBoy93.tbl",
+            "size": 7047,
+            "hash": "38fcc1f0f0eb5400afd13bd7251d152d302cee70"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Tigereye10.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Tigereye10.tbl",
+            "size": 3195,
+            "hash": "b76d2b748380123a5b5d5d341f780a3fe8b5a7ef"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Toby1066.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Toby1066.tbl",
+            "size": 1599,
+            "hash": "61c5c84ac2217725710c498f492ddce172d02238"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) Umbra.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20Umbra.tbl",
+            "size": 4125,
+            "hash": "9f8cdca60a2d6f0768426ff3efd17801bc6ef586"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) bludde.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20bludde.tbl",
+            "size": 2459,
+            "hash": "22cdf320854c4c1874ad089cacbfe02268574981"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) claycorp.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20claycorp.tbl",
+            "size": 1524,
+            "hash": "9e073be77b38337167a53ce01b87743607db4922"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) credstick.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20credstick.tbl",
+            "size": 3803,
+            "hash": "0c34bae1e60a36cfad1f0d5855f08066eb7ddcbd"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) creeperdude12321.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20creeperdude12321.tbl",
+            "size": 2064,
+            "hash": "da40be2c407018148d83633c7697406be47ac0dd"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) daveydee3.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20daveydee3.tbl",
+            "size": 915,
+            "hash": "1c15f40e1a5238f2578774f7a0ab7f47ddee33e9"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) dimaleyko.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20dimaleyko.tbl",
+            "size": 2276,
+            "hash": "ec225fe2913ba0f07779062cf4418bf3849b6d29"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) failprone22.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20failprone22.tbl",
+            "size": 1937,
+            "hash": "39e68f8ea6faf934ac20d3f198ae331ba95c69df"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) gtakingiscool.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20gtakingiscool.tbl",
+            "size": 2172,
+            "hash": "e2d4c605f78d944495aae3265d05e7464fe693a5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) iChun.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20iChun.tbl",
+            "size": 1632,
+            "hash": "7890678230cb89a2cb5c5f3f547cc9727d3d4ed8"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) jmanpenilla.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20jmanpenilla.tbl",
+            "size": 1387,
+            "hash": "a6e1710ecf16b25d32af99105ece99f706aea6be"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) kacifox.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20kacifox.tbl",
+            "size": 3429,
+            "hash": "579c45bd2673889128edfdbe38e603034835ce4d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) kirby1502.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20kirby1502.tbl",
+            "size": 2941,
+            "hash": "5de80c7c88cb9c5ced5fa326ca6d1fafb7ac32e2"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) megatronp.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20megatronp.tbl",
+            "size": 3092,
+            "hash": "4737f989f9112dd84a9993bcb2b915b952f4844d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) mrgreaper.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20mrgreaper.tbl",
+            "size": 2259,
+            "hash": "8ab1f94ff645dc7ac702178a4dfdddd44ed42dc0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) mroberts6.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20mroberts6.tbl",
+            "size": 2890,
+            "hash": "0cfaf1b54d36c10edb59b7552d0511866ac35535"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) odedex.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20odedex.tbl",
+            "size": 3048,
+            "hash": "e5e51eabfb9f5a6df89c1cc4a99717fcc39a424e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) restoredhalo901.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20restoredhalo901.tbl",
+            "size": 1680,
+            "hash": "cab51924bf564b2a8c635d074b7c9fbd81ab683c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) rxiv (2).tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20rxiv%20(2).tbl",
+            "size": 2339,
+            "hash": "be393a6b11a73e344f722d10ad622cbdd929a1ef"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) rxiv.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20rxiv.tbl",
+            "size": 1494,
+            "hash": "6c47cc898d47866661bbb3da1f3971b3a4bbd000"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) scarletr0se.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20scarletr0se.tbl",
+            "size": 9208,
+            "hash": "e4fede3fd5075083d8a08a5ab4ade97ba842bca4"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) sivina.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20sivina.tbl",
+            "size": 1751,
+            "hash": "2d52865877f2123e1905fa1d64481f7cf5bb6f08"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) skeledron.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20skeledron.tbl",
+            "size": 2508,
+            "hash": "654548116668d15f0682cc657bc97ace475af826"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) stonislandmodz.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20stonislandmodz.tbl",
+            "size": 2194,
+            "hash": "11f39d347d95a4f323b22bac24552724d1fcd0dd"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) stramp_.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20stramp_.tbl",
+            "size": 1686,
+            "hash": "aa4c41ceabb507df476bbc7cb2763fe09df293b0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) tiena63.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20tiena63.tbl",
+            "size": 1912,
+            "hash": "614582cc13e6b48193213eb2a722c959c75afce5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) vincemuhs.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20vincemuhs.tbl",
+            "size": 2420,
+            "hash": "f008e670d9f05b167075d82ef0318efd5d21a52e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Contributors/(C) wyld.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Contributors/(C)%20wyld.tbl",
+            "size": 2467,
+            "hash": "20908d3f1336cc806c9b8613da90df52828ee749"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Crown.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Crown.tbl",
+            "size": 1195,
+            "hash": "ead0035cea6f1cefeb5d274d8df7d716b18a58ad"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/DJFLuFFy_vs_joe's Collection/Bowl Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/DJFLuFFy_vs_joe's%20Collection/Bowl%20Hat.tbl",
+            "size": 2743,
+            "hash": "06e0a752a7cc5735e34c1d5bfbea5b90007f9646"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/DJFLuFFy_vs_joe's Collection/Clip on Rabbit Ears.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/DJFLuFFy_vs_joe's%20Collection/Clip%20on%20Rabbit%20Ears.tbl",
+            "size": 1754,
+            "hash": "3d08c66362399fcca3cf5da08bcb4c4faf51f0f2"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/DJFLuFFy_vs_joe's Collection/Cute Ocelot Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/DJFLuFFy_vs_joe's%20Collection/Cute%20Ocelot%20Hat.tbl",
+            "size": 4119,
+            "hash": "b34993655cf1f14c3ed60f06179751bdc65d0af3"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/DJFLuFFy_vs_joe's Collection/HUD Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/DJFLuFFy_vs_joe's%20Collection/HUD%20Hat.tbl",
+            "size": 1667,
+            "hash": "bbaf997310db2c1c5969c20fd507d588ca009764"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/DJFLuFFy_vs_joe's Collection/The Chwannie.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/DJFLuFFy_vs_joe's%20Collection/The%20Chwannie.tbl",
+            "size": 1694,
+            "hash": "7b307287919587f3609bf6a397054aa027c4fffb"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Dalek Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Dalek%20Hat.tbl",
+            "size": 1453,
+            "hash": "3f267f842f7326ea8ee365ab2dfe1c1939f1eadd"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Encouragement.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Encouragement.tbl",
+            "size": 1456,
+            "hash": "b9908820e71cc1acafcbc404859a30b144c74bb7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Ender Chest.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Ender%20Chest.tbl",
+            "size": 3590,
+            "hash": "05704f6875e2309d42c364bbf55703246826f008"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Facehugger.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Facehugger.tbl",
+            "size": 2125,
+            "hash": "99f19c4da2cd0d4889b33c604af8fbd5df2015d6"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Fez Sideways.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Fez%20Sideways.tbl",
+            "size": 1140,
+            "hash": "02bbe26ba5f2a11501bf480528bb3560627e7e71"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Fez.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Fez.tbl",
+            "size": 1078,
+            "hash": "80e632b8609dc420fbcb3284116ee5e79b3fa381"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Flying Pig Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Flying%20Pig%20Hat.tbl",
+            "size": 4560,
+            "hash": "2b3130e528e661651642983e24a6b69548ab7b50"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Foam Finger.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Foam%20Finger.tbl",
+            "size": 1412,
+            "hash": "d4ff779b0620a14c42dec3294a96b2e7410904f6"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Frankenstein.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Frankenstein.tbl",
+            "size": 750,
+            "hash": "6b50708a3e8d43b6c87f78f1a8c229d1a797ace0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Frog Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Frog%20Hat.tbl",
+            "size": 2411,
+            "hash": "3287ef718ce509c1b4ff2b8273f9a449b0931cf0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Ghastly Gibus.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Ghastly%20Gibus.tbl",
+            "size": 1494,
+            "hash": "d2cab75c908aa2ce984b2663711548ad97a9c606"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Glove World.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Glove%20World.tbl",
+            "size": 3031,
+            "hash": "e7dafd966360127426bedd9e1e3fefe53fb14031"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Googly Eyes.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Googly%20Eyes.tbl",
+            "size": 1740,
+            "hash": "01a3e6d05cd39d32624580ecba03034ca6186744"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hard Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hard%20Hat.tbl",
+            "size": 1390,
+            "hash": "c6c37c6c2af7c9dff08b85803faf2057f30dd82a"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Boy of Silence Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Boy%20of%20Silence%20Hat.tbl",
+            "size": 9866,
+            "hash": "450eb037921baf07726b619ba690c7cafb36defe"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Cute Walrus.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Cute%20Walrus.tbl",
+            "size": 2054,
+            "hash": "9494e95ca53f7623e7fd8a87862a7044461ab179"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Flowers in a Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Flowers%20in%20a%20Hat.tbl",
+            "size": 1351,
+            "hash": "38b98fa987e31e16fc52c5c01faa12662991869f"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Fro Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Fro%20Hat.tbl",
+            "size": 30524,
+            "hash": "8f147c9129ddd2ff975b87b16d28ae274744ef19"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/GlassHat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/GlassHat.tbl",
+            "size": 828,
+            "hash": "1d66831cca7c96cb267e3095e0918304c448d8f1"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Headset.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Headset.tbl",
+            "size": 1590,
+            "hash": "b020640c19d31840c0a0fd771eada989e95368f5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Hot dogger.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Hot%20dogger.tbl",
+            "size": 818,
+            "hash": "9e9939ff205eb77053884e895f29cc958d9740bb"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Hotdog Hotdog.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Hotdog%20Hotdog.tbl",
+            "size": 1541,
+            "hash": "f9e6ce6965132c84fa9fe19d67d21de27f21b478"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Literal Cat in the Hat hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Literal%20Cat%20in%20the%20Hat%20hat.tbl",
+            "size": 3578,
+            "hash": "aaa559ae96a2a7d91e21b4785a00e3998f547f8d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Pillar Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Pillar%20Hat.tbl",
+            "size": 2275,
+            "hash": "2d7370727fb099c1d2c12f29da03a7674c10bd5f"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Pool Toy Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Pool%20Toy%20Hat.tbl",
+            "size": 2037,
+            "hash": "b90260709cea1012d573c711e7ef49a94815d076"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Rabbit in a Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Rabbit%20in%20a%20Hat.tbl",
+            "size": 1328,
+            "hash": "87b53f47ba9c33fca714042632eebc3ad70743b7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Safe N' sound.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Safe%20N'%20sound.tbl",
+            "size": 977,
+            "hash": "a7476c42a4c0acd2d5c33cb62f477e77bf739c2a"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/Small Dog.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/Small%20Dog.tbl",
+            "size": 1699,
+            "hash": "b9370d75b4b5071ed35df6f1087ad1e17df790f8"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/The Crown of the Ice King.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/The%20Crown%20of%20the%20Ice%20King.tbl",
+            "size": 1723,
+            "hash": "33affa988fad2307276c106fd001b4c2c2d9471f"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hat Pack 1/WitherBoss Skulls.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hat%20Pack%201/WitherBoss%20Skulls.tbl",
+            "size": 1491,
+            "hash": "0169bb95e65693b5ad467097d025540b69788d7c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hatpants.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hatpants.tbl",
+            "size": 1290,
+            "hash": "3c2f11d5d85a2309415c698c1f4b9a3437505065"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Headcrab.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Headcrab.tbl",
+            "size": 2199,
+            "hash": "91ca0542ba178e40e8009df1c2c543a45520f914"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Headphones.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Headphones.tbl",
+            "size": 969,
+            "hash": "d25a94587a19130cd36b109438a89a249e2d7fa5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Helicopter Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Helicopter%20Hat.tbl",
+            "size": 2398,
+            "hash": "bbb34f6e42ac3763275e988088bfbb3930f7cb61"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Hissing Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Hissing%20Hat.tbl",
+            "size": 5305,
+            "hash": "8625530dee04b15028d01041cdbca6750bdaff5b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Jar 'o Brain.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Jar%20'o%20Brain.tbl",
+            "size": 1417,
+            "hash": "2ed1c9d3c1a0bad19079d9ca1bb59198267dce1d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Jeremy.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Jeremy.tbl",
+            "size": 4369,
+            "hash": "9ff4473c95fa8b18e8b6f57c4b5a869498384585"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Jester.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Jester.tbl",
+            "size": 5251,
+            "hash": "940628e8d0b27ab8d896b873aeb12063d601bd97"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Lego Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Lego%20Hat.tbl",
+            "size": 3136,
+            "hash": "e8f8372df4350c1d171b63cd6fa1de5efafda79e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Leprechaun Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Leprechaun%20Hat.tbl",
+            "size": 1170,
+            "hash": "338ca1d29e4777939662aa6267939ce184edf9fd"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Miner Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Miner%20Hat.tbl",
+            "size": 1370,
+            "hash": "333c96e9df307853cd51f3ab144d0e14d4a3a0f1"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mini Minecart.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mini%20Minecart.tbl",
+            "size": 1578,
+            "hash": "087459758fb43927c349c6007343e801f83e58e4"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/ModJam Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/ModJam%20Hat.tbl",
+            "size": 1825,
+            "hash": "43d0256e264fe7a994ff3bf3a58f5b558dfe7bf4"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr. Bubbles.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr.%20Bubbles.tbl",
+            "size": 2967,
+            "hash": "3f7731546eb0ee68854b617372daea479ec87291"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr. T.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr.%20T.tbl",
+            "size": 5271,
+            "hash": "9b7535c71a80a8a43374f4a796625dd4ca4f702b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Baby Turtle.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Baby%20Turtle.tbl",
+            "size": 1667,
+            "hash": "1a00beba799b1be55cd33f4938cea50e8919b1f2"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Blame The Community.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Blame%20The%20Community.tbl",
+            "size": 1884,
+            "hash": "f5ae3e5dd05d16d66ce4bfe6521c00475af6d293"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Haunted Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Haunted%20Hat.tbl",
+            "size": 3178,
+            "hash": "f26ad68e26ce936ad1e5fba7cff8ff0c1e47dcff"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/I'm Different.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/I'm%20Different.tbl",
+            "size": 1291,
+            "hash": "41bca575529a7d4a2737b6d587bf042e6059b737"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Inhaler.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Inhaler.tbl",
+            "size": 3887,
+            "hash": "d9f87090283b9590d99c460949e8f495404928ce"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Mr.Hazard's mask.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Mr.Hazard's%20mask.tbl",
+            "size": 2518,
+            "hash": "25be6c4b8e2146306788bfdbf5591d291b65ee98"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/One Man Army.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/One%20Man%20Army.tbl",
+            "size": 4355,
+            "hash": "bdf80219fc7fc4fb0b0419a22cc2c7ec9b490c0b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Pyro's Top Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Pyro's%20Top%20Hat.tbl",
+            "size": 2075,
+            "hash": "4b9ce0f0f1b47d682dbc1206497a10d9c5977616"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Shady Baguette.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Shady%20Baguette.tbl",
+            "size": 2821,
+            "hash": "99347ea62276ecb25336761c60068fec88c6867e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Skycrane.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Skycrane.tbl",
+            "size": 17572,
+            "hash": "7a819ed9ba0ed1f7ddd54a6bc0f42347972899a9"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Suspicious Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Suspicious%20Hat.tbl",
+            "size": 1761,
+            "hash": "28ef2a63613917b1714dc96ab08aa1d53a1ec5c3"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/T-Rex.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/T-Rex.tbl",
+            "size": 21472,
+            "hash": "718eda355b5508c53966ab9fa1db180129e3bcc9"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Mr_Hazard's Collection/Turtle's Hideout.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Mr_Hazard's%20Collection/Turtle's%20Hideout.tbl",
+            "size": 3290,
+            "hash": "27ce7114559bd62a65457b92f68cf47e4c404564"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Norwegian Flag.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Norwegian%20Flag.tbl",
+            "size": 760,
+            "hash": "402dcba6362b5a8bdc82271e9bc7fd210cd344cf"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Nyan Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Nyan%20Hat.tbl",
+            "size": 1344,
+            "hash": "6d6998be65c75d05afd687af7d441e6fc3b2c049"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Overdose.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Overdose.tbl",
+            "size": 2467,
+            "hash": "80f2fff3464cf4e1844b59fda1d5a83887cfbee3"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/PahiHat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/PahiHat.tbl",
+            "size": 3031,
+            "hash": "65cfda46e36362840e2ad69895d256ed14e58c40"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Pickaxe in Head.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Pickaxe%20in%20Head.tbl",
+            "size": 2743,
+            "hash": "4a2d51cf4d66963b06e3502698a7089c9569b164"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Pig Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Pig%20Hat.tbl",
+            "size": 4541,
+            "hash": "789cd59a67579dcadee67f23c3eefb925fe9b925"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Pistontop.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Pistontop.tbl",
+            "size": 3107,
+            "hash": "eb8f541b9ec02ae2edd4953b609aec2054ecd848"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/PlumbBob.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/PlumbBob.tbl",
+            "size": 18130,
+            "hash": "cc9fdf6ef1c4283b0139ed6ac7dcc0bef88fba06"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Plunger Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Plunger%20Hat.tbl",
+            "size": 1098,
+            "hash": "fdd2dd612cea718fb64dceb49e7a43ca9ea4f763"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Poolhat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Poolhat.tbl",
+            "size": 1768,
+            "hash": "bb0dbd208e87c3ac9249258e7420738f565b6d6d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Portalcrafter51's Collection/Anvilhead.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Portalcrafter51's%20Collection/Anvilhead.tbl",
+            "size": 1124,
+            "hash": "15dc68f16caf074c0e77c8b75160f11f6cddd6c7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Portalcrafter51's Collection/Moviemaker's Portable Setup.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Portalcrafter51's%20Collection/Moviemaker's%20Portable%20Setup.tbl",
+            "size": 3039,
+            "hash": "b37f29fca4273716eab45e2f1cb6cce82c20fb2e"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Portalcrafter51's Collection/Portable Jukebox.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Portalcrafter51's%20Collection/Portable%20Jukebox.tbl",
+            "size": 4219,
+            "hash": "73c6db5af7455a99c4ae86de2531db28be2dbb50"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Portalcrafter51's Collection/The Prick.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Portalcrafter51's%20Collection/The%20Prick.tbl",
+            "size": 2442,
+            "hash": "d1d3e019e2a198756ffa85255fa46cc906848535"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Raccoonhat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Raccoonhat.tbl",
+            "size": 3861,
+            "hash": "cf1d459843af39ee1f13397deee9207cf45eeb1c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/RainingHat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/RainingHat.tbl",
+            "size": 1259,
+            "hash": "37b0a265ce6403b16a54743e4238bab66ead09c7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Redstoner's Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Redstoner's%20Hat.tbl",
+            "size": 2357,
+            "hash": "0c28dec79be318afa17f379f2c8913ae7e9ba052"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Skyrim Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Skyrim%20Hat.tbl",
+            "size": 2213,
+            "hash": "f8cb144a1a5cc2b822f876192ed8b0d6fe0dcdc3"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Soda Top.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Soda%20Top.tbl",
+            "size": 2528,
+            "hash": "e44be89313082002759555332eb61e5427a4caf5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Solar Helmet.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Solar%20Helmet.tbl",
+            "size": 1567,
+            "hash": "c1baed0f503e7e2fe932f265ded517dfe1f382a1"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Sombero.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Sombero.tbl",
+            "size": 1700,
+            "hash": "e9ff7d68527b9851fdc801ce453dcf26b5b67cc5"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Squid.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Squid.tbl",
+            "size": 1789,
+            "hash": "9cf2a6aee56acf608381a237ead0cab349f5dadc"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Stainless Pot.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Stainless%20Pot.tbl",
+            "size": 2644,
+            "hash": "c48faebfccc2e21ee708f82f242681a93b95b681"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Straw Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Straw%20Hat.tbl",
+            "size": 1275,
+            "hash": "487c4692478c75e1d90b1d77880d62ded34c2554"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Tardis.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Tardis.tbl",
+            "size": 87666,
+            "hash": "936b3dec2079d7adef15154721d60ca123363351"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/TentaCool.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/TentaCool.tbl",
+            "size": 1202,
+            "hash": "caf52d75fcf91d0320c59521b61a7dd19d2421e9"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Aerwhale Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Aerwhale%20Hat.tbl",
+            "size": 4006,
+            "hash": "4f0ccfa1310e171dfe3e7f7e0f7c0fd057215eae"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Marx Glasses.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Marx%20Glasses.tbl",
+            "size": 1382,
+            "hash": "7d0ba4e04cd03df68418a0df81224c0493614016"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Mooshroom Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Mooshroom%20Hat.tbl",
+            "size": 1670,
+            "hash": "42d6032736b44370efad8ead3660918f5091d048"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Panda Ushanka.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Panda%20Ushanka.tbl",
+            "size": 2230,
+            "hash": "7e5bbd9db650ed5ab52ea93efc407e4a0d6998f0"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Party Hat (With Party Blower).tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Party%20Hat%20(With%20Party%20Blower).tbl",
+            "size": 1819,
+            "hash": "4a72879a6d1babc89c1d511a9e837621553309f4"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Ponytail.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Ponytail.tbl",
+            "size": 1029,
+            "hash": "c7ebf405c1a458257e22e622d715ee4d14eb430c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Present Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Present%20Hat.tbl",
+            "size": 2439,
+            "hash": "bc854106c3d0e046ad88d0f17ed6ef3db7cb2e53"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Slime Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Slime%20Hat.tbl",
+            "size": 1114,
+            "hash": "a0f65d13f55f71763defe3af6c8afb357c069c42"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Sunglasses.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Sunglasses.tbl",
+            "size": 1024,
+            "hash": "2e38662974800a37c3b2a18ef1a3f7d94bf21972"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Turkey Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Turkey%20Hat.tbl",
+            "size": 2736,
+            "hash": "a0356340f10c394cce7d813a6c38abe185a7a6bf"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Universe Pumpkin.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Universe%20Pumpkin.tbl",
+            "size": 22524,
+            "hash": "21421f7d4db075e4bc2f585f7533fccea9035627"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/The_Mushroomcow's Collection/Ushanka.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/The_Mushroomcow's%20Collection/Ushanka.tbl",
+            "size": 2309,
+            "hash": "ba2b6030e8b967964288862131f302ffd5225f0c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Top Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Top%20Hat.tbl",
+            "size": 1044,
+            "hash": "c8aae8ebda858966744c04b18b48095182d58070"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Towering Pillar Of Hats.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Towering%20Pillar%20Of%20Hats.tbl",
+            "size": 1211,
+            "hash": "e9c4c55b54cd1878d4af40c12a640c6b7251474b"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Trail Mix Mascot.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Trail%20Mix%20Mascot.tbl",
+            "size": 1950,
+            "hash": "763eb7bad810ceb13a0ca62c89ec957cbb6be6d1"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Treehat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Treehat.tbl",
+            "size": 2416,
+            "hash": "bc20ccc6b6acd8ab223ab7f57e7be4ab9737483c"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Troll.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Troll.tbl",
+            "size": 3407,
+            "hash": "0325786a260599676fc88f40ea59e4c330e49fd9"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Viking Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Viking%20Hat.tbl",
+            "size": 2475,
+            "hash": "4991a901bed4618302c8396f96ff4038fa73f9f7"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Welding Helmet.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Welding%20Helmet.tbl",
+            "size": 2515,
+            "hash": "f84e11f9b9a42564213b4d70070f92761379c004"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Winter Cap.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Winter%20Cap.tbl",
+            "size": 1160,
+            "hash": "f2b287ee2cfa4fe0cafc4206000bdfc4bc920e5d"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Wizard Hat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Wizard%20Hat.tbl",
+            "size": 1781,
+            "hash": "130635589a965e44c13dfc9fb2f14e6e891405a4"
+        },
+        {
+            "path": "forgiacraft2/mods/hats/Woodhat.tbl",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/hats/Woodhat.tbl",
+            "size": 2794,
+            "hash": "34f27ba9a07fb5a2a7efc5cb1330ad240006dd8b"
+        },
+        {
             "path": "forgiacraft2/mods/iChunUtil-1.12.2-7.2.1.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/iChunUtil-1.12.2-7.2.1.jar",
             "size": 581642,
@@ -897,6 +2151,30 @@
             "hash": "efec722466dd8e822fedcf55a8f29b2a25c9f533"
         },
         {
+            "path": "forgiacraft2/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-89/ImmersiveEngineering-core-0.12-89.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-89/ImmersiveEngineering-core-0.12-89.jar",
+            "size": 7633,
+            "hash": "4ae1c4b71dc8f5b091b2ff2dd052e403f99e0035"
+        },
+        {
+            "path": "forgiacraft2/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-89/ImmersiveEngineering-core-0.12-89.jar.meta",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-89/ImmersiveEngineering-core-0.12-89.jar.meta",
+            "size": 747,
+            "hash": "92242962f6dd41832684a86d136fcae9ce612d4a"
+        },
+        {
+            "path": "forgiacraft2/mods/memory_repo/build/orbis_api/0.1.0/orbis_api-0.1.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/memory_repo/build/orbis_api/0.1.0/orbis_api-0.1.0.jar",
+            "size": 961915,
+            "hash": "1947669014406846cd30d72ccf98c91380647817"
+        },
+        {
+            "path": "forgiacraft2/mods/memory_repo/build/orbis_api/0.1.0/orbis_api-0.1.0.jar.meta",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/memory_repo/build/orbis_api/0.1.0/orbis_api-0.1.0.jar.meta",
+            "size": 71546,
+            "hash": "dbdaf0abad543b88394d20bfa885ca22adbbcf70"
+        },
+        {
             "path": "forgiacraft2/mods/ocdevices-snapshot_20190121.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ocdevices-snapshot_20190121.jar",
             "size": 102014,
@@ -919,6 +2197,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/reauth-3.6.0.jar",
             "size": 30446,
             "hash": "61c2e0663d61986e7d9e30427278e2ff9c92d062"
+        },
+        {
+            "path": "forgiacraft2/mods/sampler-1.83.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/sampler-1.83.jar",
+            "size": 306086,
+            "hash": "d60809a55e1aa5560a8e24fe0f6eb141018bfb5c"
         }
     ]
 }
