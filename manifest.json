@@ -2,7 +2,7 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "73d8cf3fcaea98422070cf47b1eabb3cd0c69016"
+            "hash": "e5b32798b2732d4958e110db843627e98d694b0b"
         },
         {
             "name": "config",
@@ -703,6 +703,18 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/DoggyTalents-1.12.2-1.14.2.396-universal.jar",
             "size": 709579,
             "hash": "f5b50b5a268f7a1f4db2a7fb2c2355ec6e2968a9"
+        },
+        {
+            "path": "forgiacraft2/mods/FastFurnace-1.12.2-1.2.3.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/FastFurnace-1.12.2-1.2.3.jar",
+            "size": 9716,
+            "hash": "72ce136416523fed8f05f8a8847cb3c8b7d61c56"
+        },
+        {
+            "path": "forgiacraft2/mods/FastWorkbench-1.12.2-1.6.1.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/FastWorkbench-1.12.2-1.6.1.jar",
+            "size": 25532,
+            "hash": "f47d69190e05a8e6e0616de6aa4b979e253d4164"
         },
         {
             "path": "forgiacraft2/mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
