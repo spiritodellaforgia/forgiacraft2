@@ -2,11 +2,11 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "b375a2376d19e74912345d0e1625fb38d8f0307a"
+            "hash": "dc740d3907295bf10716d37a459e6cd5354a70f8"
         },
         {
             "name": "config",
-            "hash": "3b341e57377193a693ce866f31acd9b3590c64ae"
+            "hash": "9c627d01958e372c5ab856c902876896c357e6fa"
         },
         {
             "name": "forge",
@@ -324,7 +324,7 @@
             "path": "forgiacraft2/config/hats.cfg",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/hats.cfg",
             "size": 8268,
-            "hash": "d8533e3c27ed20ab1f3c8d48d7991a5931b8fb91"
+            "hash": "486fba8407db7a92820f7b0bf4be629363412dfa"
         },
         {
             "path": "forgiacraft2/config/ichunutil.cfg",
@@ -609,6 +609,12 @@
             "hash": "00207cc1a963d9d74a008b2a2b4b84e183920d38"
         },
         {
+            "path": "forgiacraft2/mods/BetterFps-1.4.8.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/BetterFps-1.4.8.jar",
+            "size": 155196,
+            "hash": "097f8a1030dff706903850601fa8b38e5b25624d"
+        },
+        {
             "path": "forgiacraft2/mods/BiblioCraft[v2.4.5][MC1.12.2].jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/BiblioCraft%5Bv2.4.5%5D%5BMC1.12.2%5D.jar",
             "size": 5122856,
@@ -715,6 +721,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar",
             "size": 1304914,
             "hash": "1f490412707dae0fe61ad916b3c03e7fee121d66"
+        },
+        {
+            "path": "forgiacraft2/mods/Forgia Utils-1.6.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Forgia%20Utils-1.6.jar",
+            "size": 39226,
+            "hash": "9aea3cf34cc04a6c4333bebd953140c6b1e0d5bd"
         },
         {
             "path": "forgiacraft2/mods/Hats-1.12.2-7.0.2.jar",
@@ -913,6 +925,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/conarm-1.12.2-1.2.3.jar",
             "size": 864305,
             "hash": "5feeb0006c373d63048377a4b290b08ff2c86681"
+        },
+        {
+            "path": "forgiacraft2/mods/foamfix-0.10.3-1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/foamfix-0.10.3-1.12.2.jar",
+            "size": 216000,
+            "hash": "e79ff48d1b18c2dd5de866bb79fa5fd07d24ebda"
         },
         {
             "path": "forgiacraft2/mods/furniture-6.2.0-1.12.2.jar",
