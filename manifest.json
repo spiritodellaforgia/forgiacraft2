@@ -2,11 +2,11 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "dc740d3907295bf10716d37a459e6cd5354a70f8"
+            "hash": "9f380f2b9a639d83bc71895f2be6439f89171f84"
         },
         {
             "name": "config",
-            "hash": "9c627d01958e372c5ab856c902876896c357e6fa"
+            "hash": "d6788afacec6a9a0f8da18ac51b884e24badeada"
         },
         {
             "name": "forge",
@@ -233,8 +233,8 @@
         {
             "path": "forgiacraft2/config/cofh/world/01_thermalfoundation_ores.json",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/01_thermalfoundation_ores.json",
-            "size": 4373,
-            "hash": "2a63786f1d72e4bb2e9a90872d7f2b74a3db060e"
+            "size": 4798,
+            "hash": "798d3d84545f27de6d4c4c601965210e733c6227"
         },
         {
             "path": "forgiacraft2/config/cofh/world/02_thermalfoundation_oil.json",
@@ -867,10 +867,22 @@
             "hash": "16f33ad28d43cfbf32f359a0f118fa6f773576fb"
         },
         {
+            "path": "forgiacraft2/mods/RebornCore-1.12.2-3.13.12.447-universal.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/RebornCore-1.12.2-3.13.12.447-universal.jar",
+            "size": 740730,
+            "hash": "5f315e5cc9d55283f2f0bf4d3615efe0b4f1b64e"
+        },
+        {
             "path": "forgiacraft2/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar",
             "size": 36278,
             "hash": "da55ee41d74b5ce9247ce7b5f2768b72112369dc"
+        },
+        {
+            "path": "forgiacraft2/mods/StevesCarts-1.12.2-2.4.30.134.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/StevesCarts-1.12.2-2.4.30.134.jar",
+            "size": 2475731,
+            "hash": "5ef6fa737efc54de6c50bddacdd31fe7514d6a4a"
         },
         {
             "path": "forgiacraft2/mods/StorageDrawers-1.12.2-5.3.8.jar",
@@ -927,6 +939,12 @@
             "hash": "5feeb0006c373d63048377a4b290b08ff2c86681"
         },
         {
+            "path": "forgiacraft2/mods/cookiecore-1.12-2.0.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/cookiecore-1.12-2.0.0.jar",
+            "size": 16469,
+            "hash": "3bd137b79245337e0566534d06586531c511c1eb"
+        },
+        {
             "path": "forgiacraft2/mods/foamfix-0.10.3-1.12.2.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/foamfix-0.10.3-1.12.2.jar",
             "size": 216000,
@@ -967,6 +985,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/journeymap-1.12.2-5.5.4.jar",
             "size": 1845450,
             "hash": "7084505c013adccb969d0fb3e8229d18ff3a28ed"
+        },
+        {
+            "path": "forgiacraft2/mods/magicfeather-1.12.1-2.1.0.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/magicfeather-1.12.1-2.1.0.jar",
+            "size": 20535,
+            "hash": "9e77ae2b3b136c6979c47f254bb9482f61fa5156"
         },
         {
             "path": "forgiacraft2/mods/malisiscore-1.12.2-6.5.1.jar",
