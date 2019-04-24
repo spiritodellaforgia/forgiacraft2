@@ -2,7 +2,7 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "9f380f2b9a639d83bc71895f2be6439f89171f84"
+            "hash": "501eeabb1326bbb88f01bb26ae8190a26f13cd09"
         },
         {
             "name": "config",
@@ -705,6 +705,12 @@
             "hash": "f5b50b5a268f7a1f4db2a7fb2c2355ec6e2968a9"
         },
         {
+            "path": "forgiacraft2/mods/ExtraTiC-1.7.10-1.4.6.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ExtraTiC-1.7.10-1.4.6.jar",
+            "size": 11557124,
+            "hash": "5e3cd61eaee3d3f6b777fcbc080f82ef18ef31d1"
+        },
+        {
             "path": "forgiacraft2/mods/FastFurnace-1.12.2-1.2.3.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/FastFurnace-1.12.2-1.2.3.jar",
             "size": 9716,
@@ -757,6 +763,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/IronBackpacks-1.12.2-3.0.8-12.jar",
             "size": 465363,
             "hash": "d0c1f5e62d7adcf1661836f65ba7511049f60cc6"
+        },
+        {
+            "path": "forgiacraft2/mods/LLOverlayReloaded-1.1.6-mc1.12.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/LLOverlayReloaded-1.1.6-mc1.12.2.jar",
+            "size": 17931,
+            "hash": "a5dbbf5e11bff5832f6192aee03aee5148d1e564"
         },
         {
             "path": "forgiacraft2/mods/Mantle-1.12-1.3.3.42.jar",
