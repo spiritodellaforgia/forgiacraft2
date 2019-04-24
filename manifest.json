@@ -2,7 +2,7 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "501eeabb1326bbb88f01bb26ae8190a26f13cd09"
+            "hash": "d1ca8e00cf44b08340d2afedd136709699fbda8b"
         },
         {
             "name": "config",
@@ -705,12 +705,6 @@
             "hash": "f5b50b5a268f7a1f4db2a7fb2c2355ec6e2968a9"
         },
         {
-            "path": "forgiacraft2/mods/ExtraTiC-1.7.10-1.4.6.jar",
-            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ExtraTiC-1.7.10-1.4.6.jar",
-            "size": 11557124,
-            "hash": "5e3cd61eaee3d3f6b777fcbc080f82ef18ef31d1"
-        },
-        {
             "path": "forgiacraft2/mods/FastFurnace-1.12.2-1.2.3.jar",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/FastFurnace-1.12.2-1.2.3.jar",
             "size": 9716,
@@ -1051,6 +1045,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ocsensors-1.0.4-b23.jar",
             "size": 81332,
             "hash": "be2bc6ee059c04eff84945798f669a31231e66d2"
+        },
+        {
+            "path": "forgiacraft2/mods/plustic-7.0.5.2.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/plustic-7.0.5.2.jar",
+            "size": 462845,
+            "hash": "172e88760cafa3e75f11a093ed99dcb86af65b55"
         },
         {
             "path": "forgiacraft2/mods/railcraft-12.0.0.jar",
