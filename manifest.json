@@ -2,11 +2,11 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "d1ca8e00cf44b08340d2afedd136709699fbda8b"
+            "hash": "5ed6a1b84286315cd1485f44711373ebdf41eef8"
         },
         {
             "name": "config",
-            "hash": "d6788afacec6a9a0f8da18ac51b884e24badeada"
+            "hash": "f8702910173abf9cef97a1dd571fde86b8b36ae0"
         },
         {
             "name": "forge",
@@ -233,8 +233,8 @@
         {
             "path": "forgiacraft2/config/cofh/world/01_thermalfoundation_ores.json",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/cofh/world/01_thermalfoundation_ores.json",
-            "size": 4798,
-            "hash": "798d3d84545f27de6d4c4c601965210e733c6227"
+            "size": 4797,
+            "hash": "deae45dea2fc7d6b5befc4e4aad7b2b4348b028c"
         },
         {
             "path": "forgiacraft2/config/cofh/world/02_thermalfoundation_oil.json",
@@ -461,8 +461,8 @@
         {
             "path": "forgiacraft2/config/opencomputers/settings.conf",
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/config/opencomputers/settings.conf",
-            "size": 72838,
-            "hash": "7f59dd41607664b627d771511167db59f2902675"
+            "size": 74471,
+            "hash": "34f04279804bde943bc40d9357042f68a671c037"
         },
         {
             "path": "forgiacraft2/config/opencomputers/user.recipes",
@@ -649,6 +649,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/Chisel-MC1.12.2-0.2.1.35.jar",
             "size": 4310011,
             "hash": "ae5fd9f53f048f6a8e624793bd2bfd9887cabae5"
+        },
+        {
+            "path": "forgiacraft2/mods/ChiselsBytes-1.12.2-0.6.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/ChiselsBytes-1.12.2-0.6.jar",
+            "size": 16242,
+            "hash": "0fa41d15b82a8f688026e7f9a31acd33aab1c9a4"
         },
         {
             "path": "forgiacraft2/mods/Clumps-3.1.2.jar",
