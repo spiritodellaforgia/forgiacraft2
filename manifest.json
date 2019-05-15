@@ -2,7 +2,7 @@
     "hashes": [
         {
             "name": "mods",
-            "hash": "5ed6a1b84286315cd1485f44711373ebdf41eef8"
+            "hash": "5071ebbd73c765fb9260111ac831d4d74e2a07c8"
         },
         {
             "name": "config",
@@ -817,6 +817,12 @@
             "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/OpenPrinter-1.12.2-0.1.0.2.jar",
             "size": 210911,
             "hash": "b1cfbc11881524bd164d0feb6f99736fd379cd06"
+        },
+        {
+            "path": "forgiacraft2/mods/OptiFine_1.12.2_HD_U_E3.jar",
+            "download_url": "https://raw.githubusercontent.com/spiritodellaforgia/forgiacraft2/master/forgiacraft2/mods/OptiFine_1.12.2_HD_U_E3.jar",
+            "size": 2444057,
+            "hash": "fbb21568d1846d09bc3b8a72b6f0b3ed2b7369ed"
         },
         {
             "path": "forgiacraft2/mods/PTRLib-1.0.4.jar",
